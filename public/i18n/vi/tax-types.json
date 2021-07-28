@@ -1,0 +1,13 @@
+{
+  "taxTypes.code": "Mã loại thuế",
+  "taxTypes.detail.edit": "Thông tin chi tiết",
+  "taxTypes.detail.title": "Thêm mới loại thuế",
+  "taxTypes.id": "ID",
+  "taxTypes.master.title": "Danh sách loại thuế",
+  "taxTypes.name": "Tên loại thuế",
+  "taxTypes.percentage": "Phần trăm",
+  "taxTypes.placeholder.code": "Nhập mã số thuế",
+  "taxTypes.placeholder.name": " Nhập tên thuế ",
+  "taxTypes.placeholder.percentage": " Nhập phần trăm thuế",
+  "taxTypes.status": "Trạng thái"
+}

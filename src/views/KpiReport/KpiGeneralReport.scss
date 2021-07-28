@@ -1,0 +1,64 @@
+@import 'src/styles/variables';
+.kpi-report-master {
+  .ant-table-tbody {
+    tr {
+      td {
+        padding: 0 !important;
+        .table-row {
+          padding: 8px;
+        }
+        .table-title-row {
+          padding: 10px 16px;
+          background: #e8e8e8;
+          border-left: 2px solid $red;
+        }
+      }
+    }
+  }
+  .ant-table-small.ant-table-bordered {
+    .ant-table-title {
+      border-top: none !important;
+      padding: 30px 28px 30px 32px;
+      border-bottom: none !important;
+      border-top: 1px solid #e8e8e8 !important;
+    }
+  }
+}
+
+// .2493EA
+.text-highlight {
+  color: #2493ea;
+}
+
+.ant-table-row-cell-ellipsis {
+  span:not(.ant-select-selection__clear) {
+    width: 100%;
+  }
+}
+
+.editor-tag-name {
+  color: $red;
+}
+.infinite-container::-webkit-scrollbar {
+  width: 5px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+.infinite-container::-webkit-scrollbar-thumb {
+  width: 5px;
+  background-color: #c1c1c1;
+  border-radius: 10px;
+  transition: all linear 5s;
+  display: none;
+}
+
+.infinite-container::-webkit-scrollbar-track {
+  width: 5px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+.infinite-container:hover::-webkit-scrollbar-thumb {
+  display: block;
+}

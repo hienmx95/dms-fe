@@ -1,0 +1,21 @@
+{
+  "directSalesOrderByEmployeeAndItemsReports.username": "Mã nhân viên",
+  "directSalesOrderByEmployeeAndItemsReports.displayName": "Tên nhân viên",
+  "directSalesOrderByEmployeeAndItemsReports.item": "Sản phẩm",
+  "directSalesOrderByEmployeeAndItemsReports.itemCode": "Mã sản phẩm",
+  "directSalesOrderByEmployeeAndItemsReports.itemName": "Tên sản phẩm",
+  "directSalesOrderByEmployeeAndItemsReports.unitOfMeasureName": "Đơn vị tính",
+  "directSalesOrderByEmployeeAndItemsReports.saleStock": "Số lượng bán",
+  "directSalesOrderByEmployeeAndItemsReports.promotionStock": "Số lượng khuyến mãi",
+  "directSalesOrderByEmployeeAndItemsReports.salePriceAverage": "Đơn giá bán trung bình",
+  "directSalesOrderByEmployeeAndItemsReports.discount": "Chiết khấu",
+  "directSalesOrderByEmployeeAndItemsReports.revenue": "Doanh thu",
+  "directSalesOrderByEmployeeAndItemsReports.indirectSalesOrderCounter": "Đơn hàng",
+  "directSalesOrderByEmployeeAndItemsReports.buyerStoreCounter": "Số đại lý mua",
+  "directSalesOrderByEmployeeAndItemsReports.master.title": "Báo cáo bán hàng trực tiếp theo nhân viên và sản phẩm",
+  "directSalesOrderByEmployeeAndItemsReports.organization": "Đơn vị quản lý",
+  "directSalesOrderByEmployeeAndItemsReports.appUser": "Chọn nhân viên",
+  "directSalesOrderByEmployeeAndItemsReports.time": "Ngày",
+  "directSalesOrderByEmployeeAndItemsReports.placeholder.startDate": "Từ ngày",
+  "directSalesOrderByEmployeeAndItemsReports.placeholder.endDate": "Đến ngày"
+}

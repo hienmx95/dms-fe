@@ -1,0 +1,13 @@
+.git/
+node_modules/
+.vs/
+.vscode/
+
+.gitignore
+.gitmodules
+docker-compose.override.yml
+docker-compose.yml
+Dockerfile
+README.md
+.idea/
+yarn.lock

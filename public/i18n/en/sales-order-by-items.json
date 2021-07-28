@@ -1,0 +1,18 @@
+{
+  "salesOrderByItems.buyerStoreCounter": "",
+  "salesOrderByItems.discount": "",
+  "salesOrderByItems.indirecSalesOrderCounter": "",
+  "salesOrderByItems.item": "",
+  "salesOrderByItems.itemCode": "",
+  "salesOrderByItems.itemName": "",
+  "salesOrderByItems.master.title": "",
+  "salesOrderByItems.placeholder.endDate": "",
+  "salesOrderByItems.placeholder.startDate": "",
+  "salesOrderByItems.productGrouping": "",
+  "salesOrderByItems.productType": "",
+  "salesOrderByItems.promotionStock": "",
+  "salesOrderByItems.revenue": "",
+  "salesOrderByItems.saleStock": "",
+  "salesOrderByItems.time": "",
+  "salesOrderByItems.unitOfMeaureName": ""
+}

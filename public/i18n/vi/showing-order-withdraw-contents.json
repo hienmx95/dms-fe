@@ -1,0 +1,9 @@
+{
+  "showingOrderWithdrawContents.code": "Mã SP trưng bày",
+  "showingOrderWithdrawContents.name": "Tên SP trưng bày",
+  "showingOrderWithdrawContents.category": "Danh mục SP",
+  "showingOrderWithdrawContents.uom": "Đơn vị tính",
+  "showingOrderWithdrawContents.salePrice": "Giá",
+  "showingOrderWithdrawContents.quantity": "Số lượng",
+  "showingOrderWithdrawContents.amount": "Giá trị"
+}

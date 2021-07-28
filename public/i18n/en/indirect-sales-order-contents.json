@@ -1,0 +1,14 @@
+{
+  "indirectSalesOrderContents.amount": "",
+  "indirectSalesOrderContents.discountPercentage": "",
+  "indirectSalesOrderContents.items.code": "",
+  "indirectSalesOrderContents.items.name": "",
+  "indirectSalesOrderContents.master.item.title": "",
+  "indirectSalesOrderContents.primaryUnitOfMeasure": "",
+  "indirectSalesOrderContents.quantity": "",
+  "indirectSalesOrderContents.requestedQuantity": "",
+  "indirectSalesOrderContents.salePrice": "",
+  "indirectSalesOrderContents.taxPercentage": "",
+  "indirectSalesOrderContents.unitOfMeasure": "",
+  "indirectSalesOrderContents.unitPrice": ""
+}

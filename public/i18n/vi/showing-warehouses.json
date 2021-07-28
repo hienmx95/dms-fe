@@ -1,0 +1,22 @@
+{
+  "showingWarehouses.code": "Mã kho",
+  "showingWarehouses.name": "Tên kho",
+  "showingWarehouses.organization": "Đơn vị quản lý",
+  "showingWarehouses.status": "Trạng thái",
+  "showingWarehouses.address": "Địa chỉ",
+  "showingWarehouses.province": "Tỉnh thành",
+  "showingWarehouses.district": "Quận huyện",
+  "showingWarehouses.ward": "Xã phương",
+  "showingWarehouses.update": "",
+  "showingWarehouses.master.title": "Tồn kho sản phẩm trưng bày",
+  "showingWarehouses.placeholder.code": "Nhập mã kho",
+  "showingWarehouses.placeholder.name": "Nhập tên kho",
+  "showingWarehouses.placeholder.organization": "Chọn đơn vị quản lý",
+  "showingWarehouses.placeholder.address": "Nhập địa chỉ",
+  "showingWarehouses.placeholder.province": "Chọn tỉnh thành",
+  "showingWarehouses.placeholder.district": "Chọn quận huyện",
+  "showingWarehouses.placeholder.ward": "Chọn xã phường",
+  "showingWarehouses.detail.title": "Thông tin chi tiết",
+  "showingWarehouses.general.info": "Kho",
+  "showingWarehouses.product.title": "Nhập tồn kho"
+}

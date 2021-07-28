@@ -1,0 +1,47 @@
+.input-id {
+    .label {
+        padding-left: 16px;
+        padding-right: 59px;
+        white-space: nowrap;
+        // min-width: 30%;
+        text-align: left;
+        font-weight: 500;
+        color: #3d464d;
+    }
+    .input {
+        max-width: 72% !important;
+    }
+}
+.input-long {
+    .label {
+        padding-left: 16px;
+        padding-right: 40px;
+        white-space: nowrap;
+        // min-width: 30%;
+        text-align: left;
+        font-weight: 500;
+        color: #3d464d;
+    }
+    .input {
+        max-width: 72% !important;
+    }
+}
+.input-date {
+    .label {
+        padding-right: 20px;
+        white-space: nowrap;
+        // min-width: 30%;
+        text-align: left;
+        font-weight: 500;
+        color: #3d464d;
+    }
+    .ant-calendar-picker {
+        width: 72%;
+    }
+    .ant-calendar-picker-input {
+        height: 28px;
+    }
+    .ant-form-item-control input {
+        margin-top: unset;
+    }
+}

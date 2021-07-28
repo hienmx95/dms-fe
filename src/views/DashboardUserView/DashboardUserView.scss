@@ -1,0 +1,292 @@
+@import '../../styles/variables';
+
+$color: #7d71f1;
+
+.dashboard-user {
+  .code-indirect {
+    color: #02a0fc;
+    &:hover {
+      color: #02a0fc;
+    }
+  }
+  .select {
+    padding-right: 14px;
+    .ant-select-selection--single {
+      border: none;
+      height: 40px;
+      margin-top: 0px;
+      .ant-select-selection__rendered {
+        line-height: 37px;
+      }
+    }
+  }
+  .col-dashboard-left {
+    padding-left: 0px !important;
+  }
+  .col-dashboard-right {
+    padding-right: 0px !important;
+  }
+  .ant-col-lg-8,
+  .ant-col-lg-16,
+  .ant-col-lg-18 {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  .card-dashboard {
+    border-radius: 10px !important;
+  }
+
+  .col-top-right {
+    padding-right: 15px;
+  }
+
+  .icon-avatar {
+    img {
+      width: 98px;
+      height: 98px;
+      border-radius: 10px;
+    }
+  }
+  .dashboard-display-name {
+    div {
+      font-size: 16px;
+    }
+    .name {
+      font-size: 18px;
+      color: #000000;
+      font-weight: 500;
+    }
+  }
+
+  @mixin icon-dashboard {
+    padding: 16px 15px;
+    margin: 19px;
+    border-radius: 10px;
+    width: 56px;
+    height: 56px;
+  }
+
+  .text-title {
+    color: #000000;
+    font-weight: 500;
+    font-size: 20px;
+    white-space: nowrap;
+  }
+
+  .text-statistical {
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    white-space: nowrap;
+  }
+  .dashboard-icon {
+    .dashboard-store {
+      @include icon-dashboard();
+      background-color: #dad7fe;
+    }
+    .report {
+      margin-left: 1rem;
+      margin-top: 1rem;
+      .store-report {
+        font-size: 14px;
+        color: $color;
+        white-space: nowrap;
+      }
+      .indirect-report {
+        font-size: 14px;
+        color: #27ae60;
+        white-space: nowrap;
+      }
+
+      .revenue-report {
+        font-size: 14px;
+        color: #f2994a;
+        white-space: nowrap;
+      }
+      .sell-number-report {
+        font-size: 14px;
+        color: #02a0fc;
+        white-space: nowrap;
+      }
+      .visits-report {
+        font-size: 14px;
+        color: $red;
+        white-space: nowrap;
+      }
+    }
+    .tio-shop {
+      font-size: 24px;
+      color: $color;
+    }
+    .dashboard-indirect {
+      @include icon-dashboard();
+      background-color: rgba(111, 207, 151, 0.2);
+    }
+    .tio-shopping_cart {
+      font-size: 24px;
+      color: #27ae60;
+    }
+
+    .dashboard-revenue {
+      @include icon-dashboard();
+      background-color: rgba(255, 178, 0, 0.2);
+    }
+    .tio-dollar {
+      font-size: 24px;
+      color: #f2994a;
+    }
+    .dashboard-sell-number {
+      @include icon-dashboard();
+      background-color: rgba(2, 160, 252, 0.2);
+    }
+    .tio-layers {
+      font-size: 24px;
+      color: #02a0fc;
+    }
+    .dashboard-visits {
+      @include icon-dashboard();
+      background-color: rgba(254, 204, 204, 0.6);
+    }
+    .tio-running {
+      font-size: 24px;
+      color: $red;
+    }
+  }
+  .table-title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    color: $red;
+  }
+  .dashboard-comment {
+    .comment {
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 24px;
+      color: #1c1d21;
+    }
+    .item-comment {
+      min-height: 90px;
+      background: rgba(245, 245, 250, 0.4);
+      border-radius: 12px;
+      .avatar-comment {
+        margin: 20px;
+        img {
+          border-radius: 5px;
+        }
+      }
+      .user {
+        .display {
+          display: flex;
+          align-items: stretch;
+          .name {
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 20px;
+            color: #1c1d21;
+            flex-grow: 1;
+          }
+          .time {
+            flex-grow: 1;
+          }
+        }
+        .content {
+          line-height: 26px;
+          padding-right: 76px;
+          padding-bottom: 20px;
+        }
+      }
+    }
+  }
+  .card-list-indirect {
+    min-height: 700px;
+  }
+  .card-profile {
+    min-height: 954px;
+  }
+  .table-dashboard {
+    // .ant-table-thead > tr > th {
+    //   background-color: #f0f0f0;
+    // }
+    .ant-table-tbody > tr > td,
+    .ant-table-thead > tr > th {
+      border: none;
+    }
+  }
+
+  .no-data-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 300px;
+      height: 200px;
+    }
+
+    .no-data-title {
+      font-weight: bold;
+      font-size: 26px;
+      line-height: 38px;
+    }
+
+    .no-data-description {
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 21px;
+      text-align: center;
+      color: #8181a5;
+    }
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  @mixin icon-dashboard {
+    padding: 8px 8px !important;
+    margin: 6px !important;
+    border-radius: 10px !important;
+    width: 40px !important;
+    height: 40px !important;
+  }
+  .dashboard-visits {
+    @include icon-dashboard();
+    background-color: rgba(254, 204, 204, 0.6);
+  }
+  .dashboard-sell-number {
+    @include icon-dashboard();
+    background-color: rgba(2, 160, 252, 0.2);
+  }
+
+  .dashboard-revenue {
+    @include icon-dashboard();
+    background-color: rgba(255, 178, 0, 0.2);
+  }
+  .dashboard-indirect {
+    @include icon-dashboard();
+    background-color: rgba(111, 207, 151, 0.2);
+  }
+  .report {
+    margin-top: 0.5rem !important;
+    margin-left: 0.5rem !important;
+    .store-report,
+    .indirect-report,
+    .revenue-report,
+    .sell-number-report,
+    .visits-report {
+      font-size: 13px !important;
+    }
+  }
+  .card-list-indirect {
+    min-height: 700px !important;
+  }
+  .card-profile {
+    min-height: 840px !important;
+  }
+  .code-indirect {
+    color: #02a0fc;
+    &:hover {
+      color: #02a0fc;
+    }
+  }
+}

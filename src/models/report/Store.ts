@@ -1,0 +1,33 @@
+import { Model } from 'core/models';
+import { Items } from './Items';
+import { Moment } from 'moment';
+export class Store extends Model{
+    public id?: number;
+    public code?: string;
+    public name?: string;
+    public organizationId?: number;
+    public storeTypeId?: string;
+    public storeGroupingId?: string;
+    public address?:string;
+    public items?: Items;
+    public phone?: string;
+    public checkingPlannedCounter?: number;
+    public checkingUnPlannedCounter?: number;
+    public totalCheckingTime?: string;
+    public firstChecking?: Moment;
+    public lastChecking?: Moment;
+    public indirectSalesOrderCounter?: number;
+    public skuCounter?: number;
+    public totalRevenue?: number;
+    public lastOrder?: Moment;
+    public lastOrderDisplay?: string;
+    public date?: Moment;
+    public eRouteCode?: string;
+    public storeName?: string;
+    public storeTypeName?: string;
+    public storePhone?: string;
+    public storeAddress?: string;
+    public employeeLastChecking?: string;
+    public eFirstChecking?: string;
+    public eLastChecking?: string;
+}

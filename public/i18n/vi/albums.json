@@ -1,0 +1,9 @@
+{
+  "albums.detail.addNode": "Thêm mới album ảnh",
+  "albums.detail.edit": "Sửa thông tin album ảnh",
+  "albums.master.title": "Danh sách album ảnh",
+  "albums.name": "Tên album",
+  "albums.placeholder.name": "Nhập tên album",
+  "albums.placeholder.status": "",
+  "albums.status": "Trạng thái"
+}

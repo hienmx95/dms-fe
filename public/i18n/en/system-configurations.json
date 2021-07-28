@@ -1,0 +1,17 @@
+{
+  "systemConfigurations.allowEditKpiInPeriod": "",
+  "systemConfigurations.amplitudePriceInDirect": "",
+  "systemConfigurations.amplitudePriceInInDirect": "",
+  "systemConfigurations.checkingDistance": "",
+  "systemConfigurations.checkingMiniumTime": "",
+  "systemConfigurations.checkingOfflineConstrainDistance": "",
+  "systemConfigurations.dashBoardReloadTime": "",
+  "systemConfigurations.m": "",
+  "systemConfigurations.master.title": "",
+  "systemConfigurations.percent": "",
+  "systemConfigurations.priorityUsePriceList": "",
+  "systemConfigurations.priorityUsePromotion": "",
+  "systemConfigurations.seconds": "",
+  "systemConfigurations.useDirectSaleOrder": "",
+  "systemConfigurations.useInDirectSaleOrder": ""
+}

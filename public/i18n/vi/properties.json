@@ -1,0 +1,14 @@
+{
+  "properties.code": "Mã tính chất",
+  "properties.createdAt": "Ngày tạo",
+  "properties.deletedAt": "Ngày xóa",
+  "properties.description": "Mô tả",
+  "properties.detail.title": "Thông tin chi tiết",
+  "properties.id": "ID",
+  "properties.isActive": "Hoạt động",
+  "properties.isSystem": "Hệ thống",
+  "properties.name": "Tên",
+  "properties.propertyTypeId": "",
+  "properties.propertyValues": "Giá trị",
+  "properties.updatedAt": "Ngày tạo"
+}

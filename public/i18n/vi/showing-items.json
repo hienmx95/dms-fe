@@ -1,0 +1,19 @@
+{
+  "showingItems.code": "Mã sản phẩm",
+  "showingItems.placeholder.code": "Nhập mã sản phẩm",
+  "showingItems.name": "Tên sản phẩm",
+  "showingItems.placeholder.name": "Nhập tên sản phẩm",
+  "showingItems.showingCategory": "Danh mục SP",
+  "showingItems.unitOfMeasure": "Đơn vị tính",
+  "showingItems.status": "Trạng thái",
+  "showingItems.images": "Hình ảnh",
+  "showingItems.salePrice": "Giá",
+  "showingItems.description": "Mô tả",
+  "showingItems.category": "Danh mục SP",
+  "showingItems.master.title": "Danh mục sản phẩm",
+  "showingItems.id": "",
+  "showingItems.placeholder.showingCategory": "Chọn danh mục sản phẩm",
+  "showingItems.placeholder.unitOfMeasure": "Chọn đơn vị tính",
+  "showingItems.placeholder.salePrice": "Nhập giá",
+  "showingItems.placeholder.description": "Nhập mô tả"
+}

@@ -1,0 +1,83 @@
+@import '../../../styles/variables';
+
+.detail-page-direct-order {
+  .short {
+    min-height: unset;
+  }
+  .title-label {
+    min-width: 50% !important;
+  }
+
+  .info-title {
+    .title-default {
+      color: $red;
+      font-weight: 500;
+    }
+    height: 35px;
+    border-bottom: 1px solid #e8e8e8;
+  }
+
+  .ant-table-small .ant-table-title {
+    border-top: none;
+  }
+  .payment {
+    .ant-form-item-control input {
+      margin-top: 0 !important;
+    }
+    .ant-input-number-disabled {
+      background-color: #e4e7ea !important;
+    }
+    .ant-input-number-input {
+      // background-color: #e4e7ea;
+      padding-bottom: 2px;
+    }
+    .ant-form-item-control input {
+      margin-top: 0px;
+    }
+    .ant-form-item-children {
+      margin-right: 0 !important;
+    }
+    // .input-discount {
+    //   max-width: 25% !important;
+    // }
+    // .input-discount-amount {
+    //   max-width: 50% !important;
+    // }
+  }
+  .ant-calendar-picker-input {
+    height: 28px;
+  }
+  .input-store {
+    cursor: pointer;
+    border: 1px solid #e4e7ea;
+    height: 28px;
+    width: 100%;
+    border-radius: 0.2rem;
+    padding: 3px !important;
+    padding-left: 10px !important;
+    i {
+      float: right;
+      margin-top: 5px;
+      right: 0;
+      color: rgba(0, 0, 0, 0.25);
+      margin-right: 5px;
+    }
+    @media only screen and (min-width: 1920px) {
+      i {
+        margin-right: 8px;
+      }
+    }
+  }
+
+  .active-disabled {
+    background-color: #e4e7ea;
+    opacity: 1;
+  }
+  .placeholder {
+    opacity: 0.5;
+  }
+
+  .tab {
+    margin-left: 17px !important;
+  }
+}

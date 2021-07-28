@@ -1,0 +1,7 @@
+{
+  "kpiProductGroupingContents.productGroupingName": "Tên nhóm sản phẩm",
+  "kpiProductGroupingContents.itemQuantity": "Số sản phẩm đã chọn",
+  "kpiProductGroupingContents.create": "Thêm nhóm sản phẩm",
+  "kpiProductGroupingContents.errors.productGrouping": "Bạn chưa chọn nhóm sản phẩm",
+  "kpiProductGroupingContents.errors.duplicateProductGrouping": "Nhóm sản phẩm này bạn đã chọn"
+}

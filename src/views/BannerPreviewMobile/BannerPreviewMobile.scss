@@ -1,0 +1,22 @@
+@import '../../styles/variables';
+.banner-mobile {
+  .banner-title {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 41px;
+    color: #151522;
+  }
+  .updated-at {
+    color: #223263;
+    opacity: 0.5;
+    font-size: 12px;
+    line-height: 180%;
+  }
+
+  .description {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

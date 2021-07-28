@@ -1,0 +1,21 @@
+{
+  "directSalesOrderByEmployeeAndItemsReports.username": "",
+  "directSalesOrderByEmployeeAndItemsReports.displayName": "",
+  "directSalesOrderByEmployeeAndItemsReports.item": "",
+  "directSalesOrderByEmployeeAndItemsReports.itemCode": "",
+  "directSalesOrderByEmployeeAndItemsReports.itemName": "",
+  "directSalesOrderByEmployeeAndItemsReports.unitOfMeasureName": "",
+  "directSalesOrderByEmployeeAndItemsReports.saleStock": "",
+  "directSalesOrderByEmployeeAndItemsReports.promotionStock": "",
+  "directSalesOrderByEmployeeAndItemsReports.salePriceAverage": "",
+  "directSalesOrderByEmployeeAndItemsReports.discount": "",
+  "directSalesOrderByEmployeeAndItemsReports.revenue": "",
+  "directSalesOrderByEmployeeAndItemsReports.indirectSalesOrderCounter": "",
+  "directSalesOrderByEmployeeAndItemsReports.buyerStoreCounter": "",
+  "directSalesOrderByEmployeeAndItemsReports.master.title": "",
+  "directSalesOrderByEmployeeAndItemsReports.organization": "",
+  "directSalesOrderByEmployeeAndItemsReports.appUser": "",
+  "directSalesOrderByEmployeeAndItemsReports.time": "",
+  "directSalesOrderByEmployeeAndItemsReports.placeholder.startDate": "",
+  "directSalesOrderByEmployeeAndItemsReports.placeholder.endDate": ""
+}

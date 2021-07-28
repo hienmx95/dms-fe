@@ -1,0 +1,96 @@
+$color: #979797;
+
+.dashboard {
+  .card-bottom {
+    max-height: 461px;
+    min-height: 461px;
+  }
+  .card-dashboard {
+    border-radius: 10px !important;
+  }
+  @mixin title {
+    font-size: 14px;
+    line-height: 21px;
+    margin-left: 20px;
+  }
+  .chart-title-line {
+    color: $color;
+    @include title();
+  }
+  .chart-title {
+    @include title();
+    font-weight: 500;
+  }
+  .col-dashboard-left {
+    padding-left: 0px !important;
+  }
+  .col-dashboard-right {
+    padding-right: 0px !important;
+  }
+  .ant-col-lg-6,
+  .ant-col-lg-12 {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  .count {
+    font-weight: 500;
+    font-size: 28px;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+  .chart-line {
+    canvas {
+      max-height: 150px;
+    }
+  }
+  .top-sale-employee {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    white-space: nowrap;
+  }
+  .single-list-status {
+    .ant-select {
+      min-width: 100px;
+      max-width: 120px;
+    }
+    float: right;
+    right: 0;
+  }
+  .map-card {
+    .ant-card-body {
+      padding: 0px !important;
+    }
+    .tio {
+      font-size: 18px;
+      &.tio-map {
+        color: #ffb200;
+      }
+      &.tio-poi_user {
+        color: #22c293;
+      }
+    }
+  }
+  .table-title {
+    font-size: 20px;
+    line-height: 29px;
+    margin-left: 20px;
+  }
+  .table-dashboard {
+    padding-left: 20px;
+    padding-right: 20px;
+    // .ant-table-thead > tr > th {
+    //   background-color: #f0f0f0;
+    // }
+    .ant-table-tbody > tr > td,
+    .ant-table-thead > tr > th {
+      border: none;
+    }
+  }
+  .code-indirect {
+    color: #02a0fc;
+    &:hover {
+      color: #02a0fc;
+    }
+  }
+}

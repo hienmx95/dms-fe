@@ -1,0 +1,20 @@
+{
+  "fields.dateType": "Thời gian",
+  "fields.detail.title": "",
+  "fields.id": "",
+  "fields.idType": "ID",
+  "fields.isDeleted": "",
+  "fields.longType": "Giá trị",
+  "fields.master.title": "",
+  "fields.menu": "",
+  "fields.name": "",
+  "fields.placeholder.dateTypeKey1": "Từ ngày",
+  "fields.placeholder.dateTypeKey2": "Đến ngày",
+  "fields.placeholder.idType": "Chọn thông tin phân quyền",
+  "fields.placeholder.longTypeKey1": "Từ giá trị",
+  "fields.placeholder.longTypeKey2": "Đến giá trị",
+  "fields.placeholder.stringTypeKey1": "Nhập Prefix",
+  "fields.placeholder.stringTypeKey2": "Nhập Suffix",
+  "fields.stringType": "Nội dung",
+  "fields.type": ""
+}

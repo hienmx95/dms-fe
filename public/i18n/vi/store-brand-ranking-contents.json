@@ -1,0 +1,11 @@
+{
+  "storeBrandRankingContents.brand": "Thương hiệu",
+  "storeBrandRankingContents.productGroupings": "Nhóm sản phẩm",
+  "storeBrandRankingContents.ranking": "Xếp hạng",
+  "storeBrandRankingContents.placeholder.brandName": "Chọn thương hiệu",
+  "storeBrandRankingContents.placeholder.productGroupings": "Chọn nhóm sản phẩm",
+  "storeBrandRankingContents.placeholder.ranking": "Nhập số xếp hạng",
+  "storeBrandRankingContents.errors.brand": "Bạn chưa chọn thương hiệu.",
+  "storeBrandRankingContents.errors.productGrouping": "Bạn chưa chọn nhóm sản phẩm.",
+  "storeBrandRankingContents.errors.ranking": "Bạn chưa nhập xếp hạng."
+}

@@ -1,0 +1,10 @@
+{
+  "kpiProductGroupingsReports.errors.kpiProductGroupingType": "Bạn chưa chọn loại nhóm Kpi",
+  "kpiProductGroupingsReports.userName": "Mã nhân viên",
+  "kpiProductGroupingsReports.displayName": "Tên nhân viên",
+  "kpiProductGroupingsReports.productGroupingCode": "Mã nhóm sản phẩm",
+  "kpiProductGroupingsReports.productGroupingName": "Tên nhóm sản phẩm",
+  "kpiProductGroupingsReports.master.title": "Báo cáo KPI nhóm sản phẩm",
+  "kpiProductGroupingsReports.indirectRevenues": "Doanh thu",
+  "kpiProductGroupingsReports.indirectStores": "Số đại lý hiện diện"
+}

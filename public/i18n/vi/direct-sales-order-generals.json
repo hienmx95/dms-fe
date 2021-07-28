@@ -1,0 +1,21 @@
+{
+  "directSalesOrderGenerals.code": "Số đơn hàng",
+  "directSalesOrderGenerals.buyerStoreName": "Đại lý mua",
+  "directSalesOrderGenerals.sellerStoreName": "Đại lý bán",
+  "directSalesOrderGenerals.saleEmployeeName": "Nhân viên bán hàng",
+  "directSalesOrderGenerals.orderDate": "Ngày đặt hàng",
+  "directSalesOrderGenerals.subTotal": "Tổng tiền chưa CK",
+  "directSalesOrderGenerals.discount": "Chiết khấu",
+  "directSalesOrderGenerals.taxValue": "VAT",
+  "directSalesOrderGenerals.revenue": "Doanh thu",
+  "directSalesOrderGenerals.master.title": "Báo cáo tổng hợp bán hàng trực tiếp",
+  "directSalesOrderGenerals.organization": "Đơn vị",
+  "directSalesOrderGenerals.saleEmployee": "Chọn nhân viên",
+  "directSalesOrderGenerals.sellerStore": "Đại lý bán",
+  "directSalesOrderGenerals.time": "Ngày",
+  "directSalesOrderGenerals.placeholder.startDate": "Từ ngày",
+  "directSalesOrderGenerals.placeholder.endDate": "Đến ngày",
+  "directSalesOrderGenerals.buyerStoreStatusName": "Trạng thái đại lý",
+  "directSalesOrderGenerals.totalAfterPromotion": "Tổng tiền sau giảm",
+  "directSalesOrderGenerals.promotionValue": "Giảm giá"
+}

@@ -1,0 +1,17 @@
+{
+  "applicationUsers.applicationUserType": "",
+  "applicationUsers.createdAt": "Ngày tạo",
+  "applicationUsers.detail.title": "Thông tin chi tiết",
+  "applicationUsers.displayName": "Tên hiển thị",
+  "applicationUsers.email": "Địa chỉ email",
+  "applicationUsers.id": "ID người dùng",
+  "applicationUsers.isActive": "Hoạt động",
+  "applicationUsers.master.title": "Danh sách người dùng",
+  "applicationUsers.name": "Tên người dùng",
+  "applicationUsers.phone": "Số điện thoại",
+  "applicationUsers.provider": "Nhà cung cấp",
+  "applicationUsers.roleContentModal.title": "",
+  "applicationUsers.tabs.roles.title": "Vai trò trong hệ thống",
+  "applicationUsers.userStatus": "Trạng thái người dùng",
+  "applicationUsers.username": "Tên đăng nhập"
+}

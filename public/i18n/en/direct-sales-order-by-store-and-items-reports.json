@@ -1,0 +1,23 @@
+{
+  "directSalesOrderByStoreAndItemsReports.storeCode": "",
+  "directSalesOrderByStoreAndItemsReports.storeName": "",
+  "directSalesOrderByStoreAndItemsReports.address": "",
+  "directSalesOrderByStoreAndItemsReports.item": "",
+  "directSalesOrderByStoreAndItemsReports.itemCode": "",
+  "directSalesOrderByStoreAndItemsReports.itemName": "",
+  "directSalesOrderByStoreAndItemsReports.saleStock": "",
+  "directSalesOrderByStoreAndItemsReports.promotionStock": "",
+  "directSalesOrderByStoreAndItemsReports.discount": "",
+  "directSalesOrderByStoreAndItemsReports.revenue": "",
+  "directSalesOrderByStoreAndItemsReports.direcSalesOrderCounter": "",
+  "directSalesOrderByStoreAndItemsReports.master.title": "",
+  "directSalesOrderByStoreAndItemsReports.storeGrouping": "",
+  "directSalesOrderByStoreAndItemsReports.placeholder.storeGrouping": "",
+  "directSalesOrderByStoreAndItemsReports.storeType": "",
+  "directSalesOrderByStoreAndItemsReports.placeholder.storeType": "",
+  "directSalesOrderByStoreAndItemsReports.placeholder.storeName": "",
+  "directSalesOrderByStoreAndItemsReports.time": "",
+  "directSalesOrderByStoreAndItemsReports.placeholder.startDate": "",
+  "directSalesOrderByStoreAndItemsReports.placeholder.endDate": "",
+  "directSalesOrderByStoreAndItemsReports.organization": ""
+}

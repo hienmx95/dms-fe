@@ -1,0 +1,19 @@
+{
+  "banners.content": "Nội dung banner",
+  "banners.creatAt": "Ngày tạo",
+  "banners.createAt": "Ngày tạo",
+  "banners.creator": "Người tạo",
+  "banners.detail.addNode": "THÊM MỚI BANNER",
+  "banners.detail.edit": " Sửa banner ",
+  "banners.image": "Ảnh Banner",
+  "banners.master.title": "DANH SÁCH BANNER",
+  "banners.placeholder.createAt": "Chọn ngày",
+  "banners.placeholder.creator": "Nhập tên đăng nhập",
+  "banners.placeholder.priority": "Nhập thứ tự ưu tiên",
+  "banners.placeholder.title": "Nhập tiêu đề",
+  "banners.priority": "Thứ tự ưu tiên",
+  "banners.status": "Trạng thái",
+  "banners.title": "Tiêu đề",
+  "banners.placeholder.organization": "Chọn đơn vị",
+  "banners.organization": "Đơn vị quản lý"
+}

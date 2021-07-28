@@ -1,0 +1,15 @@
+{
+  "luckyNumbers.code": "Mã giải thưởng",
+  "luckyNumbers.name": "Tên giải thưởng",
+  "luckyNumbers.value": "Giá trị giải thưởng",
+  "luckyNumbers.master.title": "Thông tin quay giải thưởng",
+  "luckyNumbers.placeholder.code": "Nhập mã giải thưởng",
+  "luckyNumbers.placeholder.name": "Nhập tên giải thưởng",
+  "luckyNumbers.placeholder.value": "Nhập giá trị giải thưởng",
+  "luckyNumbers.rewardStatus": "Trạng thái giải thưởng",
+  "luckyNumbers.export": "BC theo dung lượng giải thưởng",
+  "luckyNumbers.exportStore": "BC theo đại lý",
+  "luckyNumbers.usedAt": "Ngày quay thưởng",
+  "luckyNumbers.organization": "Đơn vị",
+  "luckyNumbers.status": "Trạng thái"
+}

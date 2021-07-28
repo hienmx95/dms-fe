@@ -1,0 +1,19 @@
+{
+  "showingOrderContents.code": "Mã SP trưng bày",
+  "showingOrderContents.name": "Tên SP trưng bày",
+  "showingOrderContents.uom": "Đơn vị tính",
+  "showingOrderContents.category": "Danh mục SP",
+  "showingOrderContents.saleStock": "Tồn kho",
+  "showingOrderContents.selection": "Đã chọn",
+  "showingOrderContents.unitOfMeasure": "Đơn vị tính",
+  "showingOrderContents.salePrice": "Giá",
+  "showingOrderContents.quantity": "Số lượng",
+  "showingOrderContents.amount": "Giá trị ",
+  "showingOrderContents.master.item.title": "Sản phẩm trưng bày",
+  "showingOrderContents.title": "Sản phẩm trưng bày",
+  "showingOrderContents.errors.showingWarehouse": "Bạn chưa chọn kho",
+  "showingOrderContents.placeholder.code": "Nhập mã sản phẩm",
+  "showingOrderContents.placeholder.name": "Nhập tên sản phẩm",
+  "showingOrderContents.placeholder.unitOfMeasure": "Chọn đơn vị tính",
+  "showingOrderContents.placeholder.category": "Chọn danh mục sản phẩm"
+}

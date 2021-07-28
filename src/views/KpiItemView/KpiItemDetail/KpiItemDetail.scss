@@ -1,0 +1,38 @@
+@import "src/styles/variables";
+.table-app-user {
+    // margin: 18px 18px 18px 5px;
+    .ant-table-bordered .ant-table-thead > tr > th,
+    .ant-table-bordered .ant-table-tbody > tr > td {
+        border-bottom: 1px solid $border;
+        border-right: none;
+    }
+    .ant-table-thead {
+        background-color: #f0f0f0;
+    }
+    .ant-table-small.ant-table-bordered .ant-table-content {
+        border-right: none;
+    }
+
+    .content-app-user {
+        .ant-table-body {
+            .ant-table-thead {
+                display: none;
+            }
+        }
+        .ant-table-row {
+            .ant-table-row-expand-icon {
+                display: none;
+            }
+        }
+    }
+}
+.validate-employee {
+    .ant-form-explain {
+        margin-left: -12px !important;
+    }
+}
+.validate-item {
+    .ant-form-explain {
+        margin-left: 24px;
+    }
+}

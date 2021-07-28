@@ -1,0 +1,13 @@
+@import "src/styles/variables";
+.workflow-step {
+  .title {
+    margin-left: 33px;
+    margin-top: 20px;
+  }
+  .label {
+    min-width: 13%;
+  }
+  .tox {
+    width: 100%;
+  }
+}

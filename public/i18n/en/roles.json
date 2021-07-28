@@ -1,0 +1,23 @@
+{
+  "roles.addAppUsers": "",
+  "roles.addPermission": "",
+  "roles.appUser.displayName": "",
+  "roles.appUser.email": "",
+  "roles.appUser.phone": "",
+  "roles.appUser.placeholder.displayName": "",
+  "roles.appUser.placeholder.email": "",
+  "roles.appUser.placeholder.phone": "",
+  "roles.appUser.placeholder.username": "",
+  "roles.appUser.username": "",
+  "roles.code": "",
+  "roles.detail.title": "",
+  "roles.general.appUser": "",
+  "roles.general.info": "",
+  "roles.general.permission": "",
+  "roles.id": "",
+  "roles.master.appUser.title": "",
+  "roles.master.title": "",
+  "roles.name": "",
+  "roles.placeholder.code": "",
+  "roles.status": ""
+}

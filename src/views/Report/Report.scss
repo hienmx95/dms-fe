@@ -1,0 +1,44 @@
+@import '../../styles/variables';
+
+.tr {
+  border: 1px solid black;
+}
+.tr-bottom-1 {
+  width: 900px;
+}
+.tr-bottom-2 {
+  width: 150px;
+}
+.tr-bottom-3 {
+  width: 150px;
+}
+.tr-bottom-4 {
+  width: 150px;
+}
+.tr-bottom-5 {
+  width: 150px;
+}
+
+.statistic-store-scouting-report-master {
+  .ant-table-column-title {
+    div {
+      div:first-child {
+        white-space: normal !important;
+      }
+    }
+  }
+  .ant-table-thead > tr > th {
+    padding: 16px 1px;
+  }
+  .chart-title {
+    color: $red;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .offical-name {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

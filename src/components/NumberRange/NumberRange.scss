@@ -1,0 +1,40 @@
+@import "src/styles/variables";
+
+.number-range {
+  // border: 1px solid $border-color;
+  // border-radius: $border-radius;
+  display: inline-flex;
+  width: 100%;
+  position: relative;
+
+  > .ant-input-number {
+    border: 1px solid $border-color;
+    position: static;
+
+    .ant-input-number-handler-wrap {
+      display: none;
+      position: absolute;
+      top: 0;
+      right: 0;
+      &:hover {
+        opacity: 0;
+        display: none;
+      }
+    }
+    .ant-input-number-input {
+      padding-bottom: 5px;
+    }
+  }
+
+  .separator {
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+    &:before {
+      content: " - ";
+    }
+  }
+}

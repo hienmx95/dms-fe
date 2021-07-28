@@ -1,0 +1,59 @@
+/* Style for Tree.tsx */
+
+.tree {
+  width: 100%;
+  padding: unset;
+
+  &.sub-tree {
+    display: none;
+    visibility: hidden;
+
+    &.expanded {
+      display: initial;
+      visibility: visible;
+    }
+  }
+  .sub-tree:hover {
+    background-color: #ffffff;
+  }
+
+  .tree-item {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    .node-toggler {
+      visibility: hidden;
+
+      &.show {
+        visibility: visible;
+      }
+    }
+
+    .tree-content-wrapper {
+      flex-grow: 1;
+      display: flex;
+      justify-content: space-between;
+      cursor: pointer;
+
+      .actions {
+        i[role="button"] {
+          margin-right: 0.75rem;
+
+          &:last-of-type {
+            margin-right: unset;
+          }
+        }
+      }
+    }
+  }
+  .tree-item:hover {
+    background-color: #f5f5f5;
+  }
+  .parent-border {
+    border-left: 1px dashed rgb(161, 160, 160);
+  }
+}

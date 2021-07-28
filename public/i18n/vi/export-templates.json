@@ -1,0 +1,9 @@
+{
+  "exportTemplates.code": "Mã file",
+  "exportTemplates.placeholder.code": "Nhập mã file",
+  "exportTemplates.name": "Tên file",
+  "exportTemplates.placeholder.name": "Nhập tên file",
+  "exportTemplates.getExample": "Xem mẫu file",
+  "exportTemplates.detail.edit": "Thông tin chi tiết",
+  "exportTemplates.master.title": "Danh sách file"
+}

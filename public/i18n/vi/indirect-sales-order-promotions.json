@@ -1,0 +1,9 @@
+{
+  "indirectSalesOrderPromotions.items.code": "Mã sản phẩm",
+  "indirectSalesOrderPromotions.items.name": "Tên sản phẩm",
+  "indirectSalesOrderPromotions.note": "Ghi chú",
+  "indirectSalesOrderPromotions.placeholder.unitOfMeasure": "Chọn đơn vị tính",
+  "indirectSalesOrderPromotions.quantity": "Số lượng",
+  "indirectSalesOrderPromotions.requestedQuantity": "Số lượng yêu cầu",
+  "indirectSalesOrderPromotions.unitOfMeasure": "Đơn vị tính"
+}

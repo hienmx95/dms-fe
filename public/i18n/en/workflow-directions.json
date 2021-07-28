@@ -1,0 +1,20 @@
+{
+  "workflowDirections.bodyMail": "",
+  "workflowDirections.fromStep": "",
+  "workflowDirections.master.title": "",
+  "workflowDirections.placeholder.fromStep": "",
+  "workflowDirections.placeholder.subjectMail": "",
+  "workflowDirections.placeholder.toStep": "",
+  "workflowDirections.placeholder.workflowDefinition": "",
+  "workflowDirections.placeholder.workflowStep": "",
+  "workflowDirections.role": "",
+  "workflowDirections.status": "",
+  "workflowDirections.subjectMail": "",
+  "workflowDirections.title.subjectMailForCreator": "",
+  "workflowDirections.title.subjectMailForCurrentStep": "",
+  "workflowDirections.title.subjectMailForNextStep": "",
+  "workflowDirections.toStep": "",
+  "workflowDirections.updateTime": "",
+  "workflowDirections.workflowDefinition": "",
+  "workflowDirections.workflowDirectionConditions": ""
+}

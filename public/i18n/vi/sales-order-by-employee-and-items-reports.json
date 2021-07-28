@@ -1,0 +1,23 @@
+{
+  "salesOrderByEmployeeAndItemsReports.appUser": "Nhân viên",
+  "salesOrderByEmployeeAndItemsReports.buyerStoreCounter": "Số đại lý mua",
+  "salesOrderByEmployeeAndItemsReports.discount": "Chiết khấu",
+  "salesOrderByEmployeeAndItemsReports.displayName": "Tên nhân viên",
+  "salesOrderByEmployeeAndItemsReports.indirectSalesOrderCounter": "Đơn hàng",
+  "salesOrderByEmployeeAndItemsReports.item": "Sản phẩm",
+  "salesOrderByEmployeeAndItemsReports.itemCode": "Mã sản phẩm",
+  "salesOrderByEmployeeAndItemsReports.itemName": "Tên sản phẩm",
+  "salesOrderByEmployeeAndItemsReports.master.title": "Báo cáo bán hàng gián tiếp theo nhân viên và sản phẩm",
+  "salesOrderByEmployeeAndItemsReports.organization": "Đơn vị quản lý",
+  "salesOrderByEmployeeAndItemsReports.placeholder.appUser": "Chọn nhân viên",
+  "salesOrderByEmployeeAndItemsReports.placeholder.endDate": "Đến ngày",
+  "salesOrderByEmployeeAndItemsReports.placeholder.startDate": "Từ ngày",
+  "salesOrderByEmployeeAndItemsReports.promotionStock": "Số lượng khuyến mãi",
+  "salesOrderByEmployeeAndItemsReports.revenue": "Doanh thu",
+  "salesOrderByEmployeeAndItemsReports.salePriceAverage": "Đơn giá bán trung bình",
+  "salesOrderByEmployeeAndItemsReports.saleStock": "Số lượng bán",
+  "salesOrderByEmployeeAndItemsReports.time": "Ngày",
+  "salesOrderByEmployeeAndItemsReports.unitOfMeasureName": "Đơn vị tính",
+  "salesOrderByEmployeeAndItemsReports.username": "Mã nhân viên",
+  "salesOrderByEmployeeAndItemsReports.productGrouping": "Nhóm sản phẩm"
+}

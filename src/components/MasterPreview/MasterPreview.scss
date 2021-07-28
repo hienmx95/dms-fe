@@ -1,0 +1,71 @@
+/* Style for MasterPreview.tsx */
+@import '../../styles/variables';
+.modal {
+  .modal-header {
+    border-bottom: unset;
+    padding: 24px;
+    h5 {
+      text-transform: uppercase;
+      color: $red;
+      padding-top: 6px;
+    }
+  }
+  .code {
+    margin-left: 26px;
+    font-size: 14px !important;
+  }
+  .modal-dialog {
+    .modal-header {
+      padding-bottom: unset;
+    }
+    &.master-preview {
+      min-height: calc(50% - 3.5rem);
+      display: flex;
+      flex-direction: column;
+
+      .modal-content {
+        flex-grow: 1;
+
+        .modal-body {
+          min-height: 100%;
+          padding: 24px;
+          .ant-spin-nested-loading {
+            .ant-spin-container {
+              .ant-descriptions {
+                .ant-descriptions-title {
+                  color: $red;
+                  padding-left: 4px;
+                  padding-top: 40px;
+                  margin-bottom: unset;
+                }
+              }
+            }
+          }
+          .ant-descriptions-row {
+            .ant-descriptions-item {
+              padding-bottom: unset;
+            }
+          }
+
+          .ant-descriptions-item-label {
+            font-weight: 500;
+            padding-left: 4px;
+            text-transform: none;
+          }
+          .ant-descriptions-item-content {
+            text-transform: none;
+          }
+          .ant-table-content {
+            border-right: unset;
+            .ant-table-body {
+              margin: unset;
+              .ant-table-thead {
+                background: #f0f0f0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

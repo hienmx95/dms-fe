@@ -1,0 +1,7 @@
+{
+  "workflowParameters.code": "Mã trường",
+  "workflowParameters.master.title": "Danh sách Parameter",
+  "workflowParameters.name": "Tên trường",
+  "workflowParameters.workflowParameterType": "Kiểu dữ liệu",
+  "workflowParameters.workflowType": "Đối tượng áp dụng"
+}

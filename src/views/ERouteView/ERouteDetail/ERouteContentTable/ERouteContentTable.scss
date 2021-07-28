@@ -1,0 +1,51 @@
+.table-content {
+  .ant-table-selection {
+    padding-top: 30px;
+  }
+  .ant-table-small .ant-table-content .ant-table-body {
+    margin: 0px 8px;
+  }
+  .button-table {
+    margin-left: 12px !important;
+  }
+  .errors {
+    margin-top: 48px !important;
+  }
+  .check-monday {
+    margin-top: 20px;
+  }
+}
+.form-eroute-content {
+  .ant-form-explain {
+    margin-left: 2%;
+  }
+  @media screen and (min-width: 1920px) {
+    .ant-form-explain {
+      margin-left: unset !important;
+      padding-left: 22px;
+    }
+  }
+}
+
+.check {
+  .ant-checkbox {
+    margin-top: 22px;
+  }
+}
+.validate-e-route-content {
+  .ant-form-explain {
+    white-space: nowrap;
+  }
+}
+.validate-store {
+  .ant-form-explain {
+    white-space: nowrap;
+    margin-left: 0%;
+    padding-left: 0px;
+  }
+  @media screen and (min-width: 1920px) {
+    .ant-form-explain {
+      margin-left: 0%;
+    }
+  }
+}

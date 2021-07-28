@@ -1,0 +1,15 @@
+{
+  "showingCategories.code": "Mã danh mục SP trưng bày",
+  "showingCategories.name": "Tên danh mục SP trưng bày",
+  "showingCategories.parent": "Danh mục cha",
+  "showingCategories.status": "Trạng thái",
+  "showingCategories.image": "Ảnh đại diện",
+  "showingCategories.description": "Mô tả",
+  "showingCategories.master.title": "Danh mục sản phẩm trưng bày",
+  "showingCategories.master.grouping.title": "Danh mục sản phẩm trưng bày",
+  "showingCategories.placeholder.code": "Nhập mã",
+  "showingCategories.placeholder.name": "Nhập tên",
+  "showingCategories.placeholder.parent": "Chọn danh mục cha",
+  "showingCategories.placeholder.description": "Nhập mô tả"
+
+}

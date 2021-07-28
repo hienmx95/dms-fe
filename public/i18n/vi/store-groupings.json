@@ -1,0 +1,10 @@
+{
+  "storeGroupings.code": "Mã nhóm đại lý",
+  "storeGroupings.detail.edit": "Thông tin chi tiết",
+  "storeGroupings.detail.title": "Thêm mới nhóm đại lý",
+  "storeGroupings.isActive": "Trạng thái",
+  "storeGroupings.master.title": "Danh sách nhóm đại lý",
+  "storeGroupings.name": "Tên nhóm đại lý",
+  "storeGroupings.placeholder.code": "Nhập mã nhóm đại lý",
+  "storeGroupings.placeholder.name": "Nhập tên nhóm đại lý"
+}

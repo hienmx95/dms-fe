@@ -1,0 +1,23 @@
+/* Style for TreeNode.tsx */
+@import '../../../styles/variables';
+.tree-item:hover {
+  background-color: red($color: #000000);
+}
+
+.tree-content-wrapper {
+  .icon {
+    color: $red;
+  }
+}
+
+.expanded {
+  background-color: #ffffff;
+}
+
+.sub-tree {
+  background-color: #ffffff;
+}
+
+.tree-has-children:hover {
+  background-color: #ffffff;
+}

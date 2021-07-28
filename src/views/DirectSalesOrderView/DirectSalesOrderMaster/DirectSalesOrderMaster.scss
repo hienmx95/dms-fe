@@ -1,0 +1,25 @@
+@import 'src/styles/variables';
+.modal-preview {
+  .ant-descriptions-item {
+    height: 30px;
+    white-space: nowrap;
+  }
+  .modal-body {
+    padding-top: 0px;
+  }
+  .phone-number {
+    border-bottom: 1px solid #e8e8e8;
+  }
+  .total {
+    .ant-descriptions-item-content {
+      color: $red;
+      font-size: 24px;
+      font-weight: 500;
+    }
+  }
+}
+.table-indirect-sale-order {
+  .ant-table-small .ant-table-content .ant-table-body {
+    margin: 0px 20px;
+  }
+}

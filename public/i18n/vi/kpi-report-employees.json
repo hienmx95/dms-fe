@@ -1,0 +1,20 @@
+{
+  "kpiReportEmployees.appUser": "Nhân viên",
+  "kpiReportEmployees.filter": "Thống kê",
+  "kpiReportEmployees.indirectOrderNumber": "Số đơn hàng gián tiếp",
+  "kpiReportEmployees.indirectOrderQuantity": "Tổng sản lượng theo đơn hàng gián tiếp",
+  "kpiReportEmployees.indirectOrderSKU": "SKU/đơn hàng gián tiếp",
+  "kpiReportEmployees.indirectOrderSales": "Doanh số theo đơn hàng gián tiếp",
+  "kpiReportEmployees.organization": "Đơn vị",
+  "kpiReportEmployees.perform": "Thực hiện",
+  "kpiReportEmployees.period": "Năm",
+  "kpiReportEmployees.placeholder.appUser": "Chọn nhân viên",
+  "kpiReportEmployees.placeholder.organization": "Chọn đơn vị",
+  "kpiReportEmployees.placeholder.period": "Chọn năm",
+  "kpiReportEmployees.placeholder.preodic": "Tất cả ",
+  "kpiReportEmployees.plan": "Kế hoạch",
+  "kpiReportEmployees.preodic": "Kỳ KPI",
+  "kpiReportEmployees.scale": "Tỷ lệ (%)",
+  "kpiReportEmployees.storeCreatedNew": "Số đại lý tạo mới",
+  "kpiReportEmployees.totalCustomerVisited": "Số khách hàng ghé thăm"
+}

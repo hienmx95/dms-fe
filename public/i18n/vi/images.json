@@ -1,0 +1,7 @@
+{
+  "images.id": "ID",
+  "images.name": "Tên",
+  "images.placeholder.aspectRatio": "Tỉ lệ",
+  "images.placeholder.uploadImage": "Chọn ảnh đại diện",
+  "images.placeholder.changeImage": "Đổi ảnh đại diện"
+}

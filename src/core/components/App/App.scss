@@ -1,0 +1,18 @@
+#app {
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+.checking {
+  display: block !important;
+}
+.tox-notifications-container {
+  display: none !important;
+}
+input:disabled + label {
+  background: black !important;
+  color: #ccc !important;
+}

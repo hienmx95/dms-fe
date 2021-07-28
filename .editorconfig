@@ -1,0 +1,7 @@
+[*]
+quote_type = single
+trim_trailing_whitespace = true
+ij_any_keep_blank_lines_in_code = 1
+indent_size = 2
+insert_final_newline = true
+charset = utf-8

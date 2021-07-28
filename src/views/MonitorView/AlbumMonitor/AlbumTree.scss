@@ -1,0 +1,43 @@
+@import '../../../styles/variables';
+
+.album-tree {
+  &.sub-tree {
+    display: none;
+    visibility: hidden;
+    &.expanded {
+      display: initial;
+      visibility: visible;
+    }
+  }
+  .album-tree-node {
+    cursor: pointer;
+    &:hover {
+      background: #f8f8f8;
+    }
+    i {
+      font-size: 1.2rem;
+      line-height: 1.2rem;
+    }
+    &.tree-node-active {
+      i {
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+      }
+      .album-label {
+        color: $red;
+      }
+      .album-name {
+        color: $red;
+      }
+      .album-toggle {
+        color: $red;
+      }
+    }
+    .album-toggle {
+      visibility: hidden;
+      &.show {
+        visibility: visible;
+      }
+    }
+  }
+}

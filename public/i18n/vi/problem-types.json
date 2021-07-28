@@ -1,0 +1,10 @@
+{
+  "problemTypes.code": "Mã loại vấn đề",
+  "problemTypes.detail.addNode": "Tạo mới",
+  "problemTypes.detail.edit": "Thông tin chi tiết",
+  "problemTypes.master.title": "Danh sách loại vấn đề",
+  "problemTypes.name": "Tên loại vấn đề",
+  "problemTypes.placeholder.code": "Nhập mã loại vấn đề",
+  "problemTypes.placeholder.name": "Nhập tên loại vấn đề",
+  "problemTypes.status": "Trạng thái"
+}

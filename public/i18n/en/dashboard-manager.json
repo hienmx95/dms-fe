@@ -1,0 +1,23 @@
+{
+  "dashboardManager.currentMonth": "",
+  "dashboardManager.indirect": "",
+  "dashboardManager.indirectSalesOrder": "",
+  "dashboardManager.revenue": "",
+  "dashboardManager.revenueFluctuation": "",
+  "dashboardManager.saledItem": "",
+  "dashboardManager.sellNumber": "",
+  "dashboardManager.store": "",
+  "dashboardManager.title.employeeLocation": "",
+  "dashboardManager.title.indirectSalesOrderFluctuation": "",
+  "dashboardManager.title.revenueFluctuation": "",
+  "dashboardManager.title.saledItemFluctuation": "",
+  "dashboardManager.title.statisticalDay": "",
+  "dashboardManager.title.store": "",
+  "dashboardManager.title.topRevenueItem": "",
+  "dashboardManager.title.topRevenueStore": "",
+  "dashboardManager.today": "",
+  "dashboardManager.top5RevenueByProduct": "",
+  "dashboardManager.top5RevenueByStore": "",
+  "dashboardManager.visits": "",
+  "dashboardManager.yesterday": ""
+}

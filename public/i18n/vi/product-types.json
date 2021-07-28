@@ -1,0 +1,13 @@
+{
+  "productTypes.code": "Mã loại",
+  "productTypes.description": "Mô tả",
+  "productTypes.detail.addNode": "Thêm loại sản phẩm",
+  "productTypes.detail.edit": "Thông tin chi tiết",
+  "productTypes.master.title": "Danh sách loại sản phẩm",
+  "productTypes.name": "Tên loại",
+  "productTypes.placeholder.code": "Nhập mã loại",
+  "productTypes.placeholder.description": "Nhập mô tả",
+  "productTypes.placeholder.name": "Nhập tên loại",
+  "productTypes.status": "Trạng thái",
+  "productTypes.updatedAt": "Ngày cập nhật"
+}

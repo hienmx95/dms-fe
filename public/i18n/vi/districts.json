@@ -1,0 +1,13 @@
+{
+  "districts.code": "Mã quận/huyện",
+  "districts.detail.edit": "Thông tin chi tiết",
+  "districts.detail.title": "Thêm mới quận/huyện",
+  "districts.master.title": "Quận/Huyện",
+  "districts.name": "Tên",
+  "districts.placeholder.code": "Nhập mã quận/huyện",
+  "districts.placeholder.district": "Chọn quận/huyện",
+  "districts.placeholder.name": "Nhập tên quận/huyện",
+  "districts.placeholder.priority": "Nhập thứ tự ưu tiên",
+  "districts.priority": "Thứ tự ưu tiên",
+  "districts.province": "Tỉnh/Thành"
+}

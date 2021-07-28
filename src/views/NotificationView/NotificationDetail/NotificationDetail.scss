@@ -1,0 +1,22 @@
+@import 'src/styles/variables';
+.notification-editor {
+  .label {
+    min-width: 13%;
+    color: $textColor;
+    font-weight: 500;
+  }
+  .tox {
+    width: 100%;
+    border-radius: 5px !important;
+  }
+}
+
+.notification-modal-view {
+  .header-popup {
+    margin-left: 12px !important;
+  }
+
+  .ant-modal-wrap {
+    z-index: 100000 !important;
+  }
+}

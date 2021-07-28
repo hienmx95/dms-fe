@@ -1,0 +1,45 @@
+@import '../../../../../styles/variables';
+
+.input-tag {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  .delete {
+    color: $red;
+  }
+
+  .input-tag-input {
+    width: auto;
+    margin: 1px;
+    max-width: 156px !important;
+    min-width: 40px;
+  }
+
+  .form-control:focus {
+    border-color: unset;
+    box-shadow: unset;
+  }
+
+  .list-tag {
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+    white-space: nowrap;
+    margin-left: 0.5rem;
+  }
+
+  .delete-all {
+    .delete {
+      cursor: pointer;
+    }
+  }
+}
+
+.ant-tag {
+  background: #fafafa;
+  height: 28px !important;
+  line-height: 28px !important;
+  .anticon-close {
+    display: inline-flex !important;
+  }
+}

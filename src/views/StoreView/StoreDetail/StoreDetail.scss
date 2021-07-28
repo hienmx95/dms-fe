@@ -1,0 +1,36 @@
+@import 'src/styles/variables';
+.store-detail {
+  .info-title {
+    font-weight: 500;
+    color: $red;
+    margin-left: 33px !important;
+    margin-top: 14px;
+    font-size: 14px;
+  }
+
+  .store-address-input {
+    position: relative;
+    width: 70%;
+    .google-map {
+      position: relative;
+      width: 100%;
+    }
+  }
+
+  .store-address {
+    .ant-form-item-children {
+      align-items: flex-start !important;
+    }
+  }
+
+  .input-map {
+    width: none !important;
+    max-width: none !important;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .label-address {
+    margin-bottom: 35% !important;
+  }
+}

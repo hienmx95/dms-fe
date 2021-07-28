@@ -1,0 +1,16 @@
+{
+  "dashboardUser.buyerStore": "Đại lý mua",
+  "dashboardUser.code": "Số đơn hàng",
+  "dashboardUser.comment": "Bình luận",
+  "dashboardUser.indirect": "Đơn hàng",
+  "dashboardUser.indirectSalesOrderStatus": "Trạng thái",
+  "dashboardUser.revenue": "Doanh thu",
+  "dashboardUser.sellNumber": "Số lượng bán",
+  "dashboardUser.sellerStore": "Đại lý bán",
+  "dashboardUser.title.newOrders": "Đơn hàng của tôi",
+  "dashboardUser.total": "Tổng tiền",
+  "dashboardUser.visits": "Ghé thăm",
+  "dashboardUser.welcome": "Chào mừng",
+  "dashboardUser.noDataTitle": "Chưa ai nhắc tới bạn",
+  "dashboardUser.noDataDescription": "Hãy trao đổi và cười với đồng nghiệp nhiều hơn nhé"
+}

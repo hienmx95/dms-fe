@@ -1,0 +1,22 @@
+{
+  "directSalesOrderByItems.itemCode": "Mã sản phẩm",
+  "directSalesOrderByItems.itemName": "Tên sản phẩm",
+  "directSalesOrderByItems.unitOfMeasureName": "Đơn vị tính",
+  "directSalesOrderByItems.saleStock": "Số lượng bán",
+  "directSalesOrderByItems.promotionStock": "Số lượng khuyến mãi",
+  "directSalesOrderByItems.discount": "Chiết khấu",
+  "directSalesOrderByItems.revenue": "Doanh thu",
+  "directSalesOrderByItems.directSalesOrderCounter": "Số đơn hàng",
+  "directSalesOrderByItems.buyerStoreCounter": "Số đơn hàng mua",
+  "directSalesOrderByItems.master.title": "Báo cáo bán hàng trực tiếp theo sản phẩm",
+  "directSalesOrderByItems.organization": "Đơn vị quản lý",
+  "directSalesOrderByItems.productGrouping": "Nhóm sản phẩm",
+  "directSalesOrderByItems.productType": "Loại sản phẩm",
+  "directSalesOrderByItems.item": "Sản phẩm",
+  "directSalesOrderByItems.time": "Ngày",
+  "directSalesOrderByItems.placeholder.startDate": "Từ ngày",
+  "directSalesOrderByItems.placeholder.endDate": "Đến ngày",
+  "directSalesOrderByItems.placeholder.productGrouping": "Chọn nhóm sản phẩm",
+  "directSalesOrderByItems.placeholder.productType": "Chọn loại sản phẩm",
+  "directSalesOrderByItems.placeholder.item": "Chọn sản phẩm"
+}

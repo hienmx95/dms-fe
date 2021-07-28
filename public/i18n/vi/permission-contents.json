@@ -1,0 +1,7 @@
+{
+  "permissionContents.field": "Tên trường",
+  "permissionContents.permissionOperator": "Mã thao tác",
+  "permissionContents.placeholder.field": "Nhập trường dữ liệu",
+  "permissionContents.placeholder.permissionOperator": "Nhập thao tác",
+  "permissionContents.value": "Giá trị"
+}

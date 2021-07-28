@@ -1,0 +1,17 @@
+{
+  "applicationUsers.applicationUserType": "",
+  "applicationUsers.createdAt": "",
+  "applicationUsers.detail.title": "",
+  "applicationUsers.displayName": "",
+  "applicationUsers.email": "",
+  "applicationUsers.id": "",
+  "applicationUsers.isActive": "",
+  "applicationUsers.master.title": "",
+  "applicationUsers.name": "",
+  "applicationUsers.phone": "",
+  "applicationUsers.provider": "",
+  "applicationUsers.roleContentModal.title": "",
+  "applicationUsers.tabs.roles.title": "",
+  "applicationUsers.userStatus": "",
+  "applicationUsers.username": ""
+}

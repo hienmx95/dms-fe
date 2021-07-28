@@ -1,0 +1,15 @@
+@import "src/styles/variables";
+
+.page-detail-product {
+  .title-price-variation {
+    border-bottom: 1px solid #e8e8e8;
+    margin-left: -10px !important;
+    margin-right: -10px;
+    padding-left: 44px !important;
+  }
+  .table-error {
+    .ant-form-explain {
+      margin-left: 1% !important;
+    }
+  }
+}

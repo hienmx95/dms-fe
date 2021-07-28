@@ -1,0 +1,12 @@
+{
+  "provinces.code": "Mã tỉnh thành",
+  "provinces.detail.edit": "Thông tin chi tiết",
+  "provinces.detail.title": "Thêm mới tỉnh thành",
+  "provinces.master.title": "Danh sách tỉnh thành",
+  "provinces.name": "Tên tỉnh thành",
+  "provinces.placeholder.code": "Nhập mã tỉnh thành",
+  "provinces.placeholder.name": "Nhập tên tỉnh thành",
+  "provinces.placeholder.priority": "Nhập thứ tự ưu tiên",
+  "provinces.placeholder.province": "Chọn tỉnh thành",
+  "provinces.priority": "Thứ tự ưu tiên"
+}

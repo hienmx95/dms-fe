@@ -1,0 +1,48 @@
+.modal-store {
+  .store-address-input {
+    position: relative;
+    width: 70%;
+    .google-map {
+      position: relative;
+      width: 100%;
+    }
+  }
+  .input-map {
+    width: none !important;
+    max-width: none !important;
+  }
+  .store-address {
+    .ant-form-item-children {
+      align-items: flex-start !important;
+    }
+  }
+  .reject-state {
+    font-size: 11px;
+    text-transform: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: #d40e0e;
+    border: 1px solid #d40e0e;
+    height: 32px;
+    line-height: 22px;
+  }
+  .open-state {
+    font-size: 11px;
+    text-transform: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: #745aef;
+    border: 1px solid #745aef;
+    height: 32px;
+    line-height: 22px;
+  }
+  .image-store {
+    .image-upload-list .image-upload-item .upload-button {
+      display: none;
+    }
+
+    .delete {
+      display: none;
+    }
+  }
+}

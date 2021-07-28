@@ -1,0 +1,13 @@
+{
+  "unitOfMeasureGroupingContents.detail.title": "",
+  "unitOfMeasureGroupingContents.equal": "=",
+  "unitOfMeasureGroupingContents.factor": "Số lượng đơn vị cơ bản",
+  "unitOfMeasureGroupingContents.id": "",
+  "unitOfMeasureGroupingContents.master.title": "",
+  "unitOfMeasureGroupingContents.name": "Đơn vị chuyển đổi",
+  "unitOfMeasureGroupingContents.number": "Số lượng đơn vị chuyển đổi",
+  "unitOfMeasureGroupingContents.placeholder.unitOfMeasure": "Chọn đơn vị",
+  "unitOfMeasureGroupingContents.title": "Thông tin nhóm đơn vị chuyển đổi",
+  "unitOfMeasureGroupingContents.unitOfMeasure": "Đơn vị cơ bản",
+  "unitOfMeasureGroupingContents.unitOfMeasureChange": "Đơn vị chuyển đổi"
+}

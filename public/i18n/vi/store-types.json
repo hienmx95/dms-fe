@@ -1,0 +1,11 @@
+{
+  "storeTypes.code": "Mã loại đại lý",
+  "storeTypes.color": "Màu sắc",
+  "storeTypes.detail.edit": "Thông tin chi tiết",
+  "storeTypes.detail.title": "Thêm mới loại đại lý",
+  "storeTypes.master.title": "Danh sách loại đại lý",
+  "storeTypes.name": "Tên loại đại lý",
+  "storeTypes.placeholder.code": "Nhập mã loại đại lý",
+  "storeTypes.placeholder.name": "Nhập tên loại đại lý",
+  "storeTypes.status": "Trạng thái"
+}

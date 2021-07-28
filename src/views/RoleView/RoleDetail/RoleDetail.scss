@@ -1,0 +1,57 @@
+.role-detail {
+  .short {
+    min-height: unset !important;
+  }
+  .ant-table-small {
+    .ant-table-content {
+      .ant-table-body {
+        border-top: 1px solid #e8e8e8;
+        margin: 0px 30px;
+      }
+    }
+  }
+  .ant-select {
+    width: 100%;
+  }
+}
+.table-title-header {
+  margin-bottom: 44px;
+}
+.field-table {
+  height: 535px;
+  overflow: scroll;
+  border: 1px solid #e8e8e8;
+  padding: 16px 10px;
+
+  .multi-select {
+    margin: 0.5rem 0 0 0;
+  }
+}
+.permission-mapping-label {
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  background: #eeeeee;
+}
+// .page-table {
+//   border: 1px solid #e8e8e8;
+// }
+.permission-table {
+  .ant-table-thead > tr > th .ant-table-header-column {
+    width: 100%;
+  }
+  .ant-table-small {
+    .ant-table-content {
+      .ant-table-body {
+        margin: 0px 24px;
+      }
+    }
+  }
+  .ant-table-small
+    > .ant-table-content
+    > .ant-table-body
+    > table
+    > .ant-table-thead
+    > tr {
+    border-bottom: unset !important;
+  }
+}

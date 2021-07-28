@@ -1,0 +1,12 @@
+.hidden {
+    display: none;
+}
+.local-table {
+    .ant-table-small {
+        .ant-table-content {
+          .ant-table-body {
+            margin: 0 20px;
+          }
+        }
+      }
+    }

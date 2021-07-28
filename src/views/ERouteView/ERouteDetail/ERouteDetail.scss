@@ -1,0 +1,12 @@
+@import '../../../styles/variables';
+
+.title {
+  font-weight: 500;
+  padding: 24px;
+  color: $red;
+  font-size: 14px;
+  margin-left: 33px;
+}
+.short {
+  min-height: unset !important;
+}

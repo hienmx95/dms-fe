@@ -1,0 +1,61 @@
+@import '../../../../styles/variables';
+.brandInStore-table-content {
+  .ant-table-thead {
+    background: #f0f0f0;
+  }
+  .ant-table-small {
+    padding: 0px 33px;
+  }
+
+  .ant-table-small > .ant-table-content > .ant-table-footer {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .ant-table-wrapper {
+    margin-top: 16px !important;
+    padding-top: 0px;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  .tag__wrapper {
+    width: 100%;
+    min-height: 28px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    position: relative;
+    height: 100%;
+    flex-wrap: wrap;
+
+    .tag__placeholder {
+      color: #bfbfbf;
+    }
+
+    .tag {
+      height: 20px !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    &:hover {
+      border-color: $red;
+      transition: all 0.3s;
+    }
+    .input__icon {
+      position: absolute;
+      right: 10px;
+    }
+  }
+  .ant-table-selection {
+    padding-top: 0px;
+  }
+
+  .form-control {
+    max-width: 100% !important;
+  }
+}

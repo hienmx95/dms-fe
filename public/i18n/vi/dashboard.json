@@ -1,0 +1,14 @@
+{
+  "dashboard.employee": "Nhân viên",
+  "dashboard.newImages": "Hình ảnh mới",
+  "dashboard.newOrders": "Đơn hàng mới",
+  "dashboard.saleEmployees": "Nhân viên tiếp thị",
+  "dashboard.title.employeeLocation": "Vị trí nhân viên hôm nay",
+  "dashboard.title.newImgaes": "Hình ảnh mới",
+  "dashboard.title.newOrders": "Đơn hàng mới",
+  "dashboard.title.saleEmployee": "Nhân viên tiếp thị Online",
+  "dashboard.title.store": "Độ phủ đại lý",
+  "dashboard.title.topSaleaEmployee": "Top 5 nhân viên theo lượt ghé thăm",
+  "dashboard.title.visits": "Lượt ghé thăm đại lý",
+  "dashboard.visits": "Lượt"
+}

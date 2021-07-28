@@ -1,0 +1,10 @@
+.display-code {
+    color: #1592f3;
+    text-decoration: underline;
+}
+.display-code:hover {
+    color: rgba($color: #1592f3, $alpha: 0.6);
+}
+.display-code:focus {
+    color: #1592f3;
+}

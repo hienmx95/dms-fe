@@ -1,0 +1,20 @@
+{
+  "storeImagesMonitors.address": "Địa chỉ khách hàng",
+  "storeImagesMonitors.album": "Album ảnh",
+  "storeImagesMonitors.customer": "Khách hàng",
+  "storeImagesMonitors.date": "Ngày",
+  "storeImagesMonitors.displayName": "Tên nhân viên",
+  "storeImagesMonitors.distance": "Địa chỉ chụp ảnh",
+  "storeImagesMonitors.image": "Hình ảnh",
+  "storeImagesMonitors.imageCounter": "Tổng hình ảnh",
+  "storeImagesMonitors.master.title": "Giám sát hình ảnh",
+  "storeImagesMonitors.organization": "Đơn vị",
+  "storeImagesMonitors.placeholder.album": "Chọn album",
+  "storeImagesMonitors.placeholder.endDate": "Đến ngày",
+  "storeImagesMonitors.placeholder.startDate": "Từ ngày",
+  "storeImagesMonitors.saleEmployee": "Người chụp ảnh",
+  "storeImagesMonitors.saleOrder": "Đơn hàng",
+  "storeImagesMonitors.store": "Đại lý",
+  "storeImagesMonitors.time": "Thời gian chụp ảnh",
+  "storeImagesMonitors.username": "Nhân viên"
+}

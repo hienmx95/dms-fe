@@ -1,0 +1,43 @@
+/* Style for CollapsibleCard.tsx */
+
+@import "src/styles/mixins";
+@import "src/styles/variables";
+
+.collapsible-card {
+  .ant-card-head {
+    .ant-card-head-wrapper {
+      .ant-card-head-title {
+        margin-left: 16px;
+      }
+    }
+  }
+  &.collapsed {
+    .ant-card-body {
+      @include hidden();
+    }
+  }
+  // .ant-card-body {
+  //   .ant-form {
+  //     padding-left: 6px;
+  //   }
+  // }
+}
+.ant-card-bordered {
+  border: unset !important;
+}
+.btn-collapsed {
+  width: 24px;
+  height: 24px;
+  color: $red;
+  border-radius: 50%;
+  border: 1px solid $red;
+  background: $white;
+  margin-right: 18px;
+  .fa-angle-up {
+    padding-left: 7px;
+  }
+}
+
+.btn-collapsed:focus {
+  outline: none;
+}

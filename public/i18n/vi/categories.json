@@ -1,0 +1,14 @@
+{
+  "categories.code": "Mã danh mục",
+  "categories.placeholder.code": "Nhập mã danh mục",
+  "categories.name": "Tên danh mục",
+  "categories.placeholder.name": "Nhập tên danh mục",
+  "categories.status": "Trạng thái",
+  "categories.parent": "Danh mục cha",
+  "categories.placeholder.parent": "Chọn danh mục cha",
+  "categories.image": "Ảnh danh mục",
+  "categories.master.title": "Danh mục sản phẩm",
+  "categories.master.grouping.title": "Danh sách danh mục",
+  "categories.description": "Mô tả",
+  "categories.placeholder.description": "Nhập mô tả"
+}

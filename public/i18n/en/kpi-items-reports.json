@@ -1,0 +1,23 @@
+{
+  "kpiItemsReports.ItemName": "",
+  "kpiItemsReports.displayName": "",
+  "kpiItemsReports.indirectOrdersOfKeyItems": "",
+  "kpiItemsReports.indirectOutputOfkeyItem": "",
+  "kpiItemsReports.indirectOutputOfkeyItems": "",
+  "kpiItemsReports.indirectSalesOfKeyItem": "",
+  "kpiItemsReports.indirectSalesOfKeyItems": "",
+  "kpiItemsReports.indirectStoresOfKeyItem": "",
+  "kpiItemsReports.indirectStoresOfKeyItemPlanned": "",
+  "kpiItemsReports.indirectStoresOfKeyItemRatio": "",
+  "kpiItemsReports.indirectStoresOfKeyItems": "",
+  "kpiItemsReports.itemName": "",
+  "kpiItemsReports.itemcode": "",
+  "kpiItemsReports.kpiPeriod": "",
+  "kpiItemsReports.kpiYear": "",
+  "kpiItemsReports.master.title": "",
+  "kpiItemsReports.organization": "",
+  "kpiItemsReports.storesVisited": "",
+  "kpiItemsReports.storesVisitedPLanned": "",
+  "kpiItemsReports.storesVisitedRatio": "",
+  "kpiItemsReports.storesVisiteds": ""
+}

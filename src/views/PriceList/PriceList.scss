@@ -1,0 +1,18 @@
+.price-list-detail {
+  .ant-form-item-control input {
+    margin-top: 0 !important;
+  }
+  .ant-table-small .ant-table-title {
+    border-top: none !important;
+  }
+  .priceList-simple-mapping-table {
+    .ant-table-selection-column {
+      text-align: left !important;
+    }
+  }
+  .priceListType-formItem {
+    .ant-form-explain {
+      margin-left: 0.5rem !important;
+    }
+  }
+}

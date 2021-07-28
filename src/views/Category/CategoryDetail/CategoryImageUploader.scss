@@ -1,0 +1,86 @@
+@import '~cropperjs/src/css/cropper.css';
+@import 'src/styles/variables';
+
+$black: #333333;
+$color: $red;
+
+@mixin button {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e8e8e8;
+  overflow: hidden;
+}
+
+.avatar-uploader {
+  .thumbnail {
+    @include button;
+    width: 100px;
+    height: 100px;
+    display: block;
+    position: relative;
+    z-index: 10;
+    border-radius: 5px;
+
+    .overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background: $black;
+      opacity: 0.2;
+      z-index: 15;
+      visibility: hidden;
+      top: 0;
+      left: 0;
+
+      &:hover {
+        opacity: 1;
+        background-color: fade_out(#000000, 0.5);
+      }
+
+      button {
+        opacity: 1;
+        margin: unset;
+        padding: unset;
+
+        svg {
+          color: rgba(255, 255, 255, 0.85);
+        }
+      }
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  &:hover {
+    .thumbnail {
+      .overlay {
+        visibility: visible;
+      }
+    }
+  }
+  .upload-button {
+    text-align: center;
+    color: #ffffff;
+    background-color: $red !important;
+    width: 150px;
+    font-size: 13px;
+    border-radius: 5px;
+    box-shadow: rgba(7, 7, 7, 0.3) 0px 3px 10px 0px;
+    height: 28px;
+  }
+  // .btn-crops {
+  .btn-crop {
+    background-color: $red !important;
+    border-color: $red !important;
+  }
+  // }
+}

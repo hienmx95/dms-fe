@@ -1,0 +1,58 @@
+@import '../../../styles/variables';
+
+$border: #e8e8e8;
+$color: #3d464d;
+.organization-master {
+  .page-header {
+    border-radius: 10px;
+    background-color: $white;
+    padding: 20px;
+  }
+  .select {
+    width: 70px;
+    @media screen and (min-width: 1920px) {
+      width: 150px;
+    }
+  }
+
+  @mixin box() {
+    border: 1px solid $border;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .org-grouping {
+    @include box();
+    margin: 18px;
+  }
+
+  .title-org {
+    color: $color;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .table-app-user {
+    @include box();
+    margin: 18px 18px 18px 5px;
+    .ant-table-bordered .ant-table-thead > tr > th,
+    .ant-table-bordered .ant-table-tbody > tr > td {
+      border-bottom: 1px solid $border;
+      border-right: none;
+    }
+    .ant-table-thead {
+      background-color: #f0f0f0;
+    }
+    .ant-table-small.ant-table-bordered .ant-table-content {
+      border-right: none;
+    }
+
+    .content-app-user {
+      .ant-table-row {
+        .ant-table-row-expand-icon {
+          display: none;
+        }
+      }
+    }
+  }
+}

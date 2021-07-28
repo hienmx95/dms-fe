@@ -1,0 +1,16 @@
+@import "../../../styles/variables";
+$border: #e8e8e8;
+$color: #3d464d;
+
+@mixin box() {
+  border: 1px solid $border;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.category-master {
+  .org-grouping {
+    @include box();
+    margin: 18px;
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "systemConfigurations.allowEditKpiInPeriod": "Cho phép sửa KPI trong tháng",
+  "systemConfigurations.amplitudePriceInDirect": "Biên độ cho phép sửa giá trên đơn hàng trực tiếp",
+  "systemConfigurations.amplitudePriceInInDirect": "Biên độ cho phép sửa giá trên đơn hàng gián tiếp",
+  "systemConfigurations.checkingDistance": "Khoảng cách cho phép ghé thăm",
+  "systemConfigurations.checkingMiniumTime": "Thời gian tối thiểu ghé thăm khách hàng",
+  "systemConfigurations.checkingOfflineConstrainDistance": "Ghé thăm ngoại tuyến có ràng buộc khoảng cách hay không?",
+  "systemConfigurations.dashBoardReloadTime": "Tần suất tự Reload đữ liệu trên màn hình Dashboard",
+  "systemConfigurations.high": "Cao",
+  "systemConfigurations.low": "Thấp",
+  "systemConfigurations.m": "M",
+  "systemConfigurations.master.title": "Cấu hình hệ thống",
+  "systemConfigurations.percent": "%",
+  "systemConfigurations.priorityUsePriceList": "Ưu tiên lấy giá theo bảng giá",
+  "systemConfigurations.priorityUsePromotion": "Ưu tiên lấy khuyến mãi theo",
+  "systemConfigurations.seconds": "Giây",
+  "systemConfigurations.useDirectSaleOrder": "Sử dụng đơn hàng trực tiếp",
+  "systemConfigurations.useInDirectSaleOrder": "Sử dụng đơn hàng gián tiếp",
+  "systemConfigurations.youtubeId": "Video youtube Id giới thiệu"
+}

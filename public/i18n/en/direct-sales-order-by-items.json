@@ -1,0 +1,19 @@
+{
+  "directSalesOrderByItems.itemCode": "",
+  "directSalesOrderByItems.itemName": "",
+  "directSalesOrderByItems.unitOfMeasureName": "",
+  "directSalesOrderByItems.saleStock": "",
+  "directSalesOrderByItems.promotionStock": "",
+  "directSalesOrderByItems.discount": "",
+  "directSalesOrderByItems.revenue": "",
+  "directSalesOrderByItems.indirecSalesOrderCounter": "",
+  "directSalesOrderByItems.buyerStoreCounter": "",
+  "directSalesOrderByItems.master.title": "",
+  "directSalesOrderByItems.organization": "",
+  "directSalesOrderByItems.productGrouping": "",
+  "directSalesOrderByItems.productType": "",
+  "directSalesOrderByItems.item": "",
+  "directSalesOrderByItems.time": "",
+  "directSalesOrderByItems.placeholder.startDate": "",
+  "directSalesOrderByItems.placeholder.endDate": ""
+}

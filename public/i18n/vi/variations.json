@@ -1,0 +1,10 @@
+{
+  "variations.add": "Thêm mới thuộc tính",
+  "variations.code": "Mã thuộc tính",
+  "variations.detail.title": "Thông tin chi tiết",
+  "variations.error": "Không được nhập tiếng việt, ký tự đặc biệt hoặc khoảng trắng!",
+  "variations.id": "ID",
+  "variations.master.title": "Danh sách thuộc tính",
+  "variations.name": "Tên",
+  "variations.variationGrouping": "Nhóm thuộc tính"
+}

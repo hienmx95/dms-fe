@@ -1,0 +1,51 @@
+@import '~bootstrap/scss/functions';
+@import '~@coreui/coreui/scss/mixins';
+@import '~@coreui/coreui/scss/variables';
+@import '~pretty-checkbox/src/pretty-checkbox.scss';
+// @import '@ant-design/color/'
+
+$themes: (
+  default: (),
+);
+
+$red: #a32f4a;
+$white: #ffffff;
+$textColor: #23282c;
+$border: #e8e8e8;
+
+$sidebar-nav-link-color: $textColor;
+$sidebar-nav-link-bg: $white;
+
+$sidebar-nav-link-active-bg: $red;
+$sidebar-nav-link-active-color: $white;
+
+$sidebar-nav-link-hover-bg: $white;
+$sidebar-nav-link-hover-color: $red;
+
+$sidebar-minimizer-bg: $white;
+$sidebar-minimizer-hover-bg: $red;
+$sidebar-minimizer-hover-indicator-color: $white;
+$sidebar-minimizer-indicator-color: $red;
+
+$sidebar-nav-link-icon-color: $textColor;
+$sidebar-nav-link-active-icon-color: $white;
+
+$sidebar-nav-dropdown-bg: $white;
+$sidebar-nav-dropdown-color: $textColor;
+$sidebar-nav-dropdown-hover-color: $white;
+
+$sidebar-bg: $white;
+
+$input-focus-border-color: $red;
+$input-btn-focus-color: rgba($red, 0.25);
+
+$primary: $red !global;
+
+$theme-colors: map-merge(
+  $theme-colors,
+  (
+    'primary': $primary,
+  )
+);
+
+$link-color: $primary;

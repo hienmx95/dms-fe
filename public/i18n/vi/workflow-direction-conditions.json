@@ -1,0 +1,8 @@
+{
+  "workflowDirectionConditions.placeholder.stringType": "Nhập giá trị",
+  "workflowDirectionConditions.placeholder.workflowOperator": "Chọn mã thao tác",
+  "workflowDirectionConditions.placeholder.workflowParameter": "Chọn trường",
+  "workflowDirectionConditions.value": "Giá trị",
+  "workflowDirectionConditions.workflowOperator": "Mã thao tác",
+  "workflowDirectionConditions.workflowParameterId": "Tên trường"
+}

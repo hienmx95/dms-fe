@@ -1,0 +1,19 @@
+{
+  "salesOrderByItems.buyerStoreCounter": "Số đại lý mua",
+  "salesOrderByItems.discount": "Chiết khấu",
+  "salesOrderByItems.indirecSalesOrderCounter": "Số đơn hàng",
+  "salesOrderByItems.item": "Sản phẩm",
+  "salesOrderByItems.itemCode": "Mã sản phẩm",
+  "salesOrderByItems.itemName": "Tên sản phẩm",
+  "salesOrderByItems.master.title": "Báo cáo bán hàng gián tiếp theo sản phẩm",
+  "salesOrderByItems.organization": "Đơn vị",
+  "salesOrderByItems.placeholder.endDate": "Từ ngày",
+  "salesOrderByItems.placeholder.startDate": "Đến ngày",
+  "salesOrderByItems.productGrouping": "Nhóm sản phẩm",
+  "salesOrderByItems.productType": "Loại sản phẩm",
+  "salesOrderByItems.promotionStock": "Số lượng khuyến mại",
+  "salesOrderByItems.revenue": "Doanh thu",
+  "salesOrderByItems.saleStock": "Số lượng bán",
+  "salesOrderByItems.time": "Ngày",
+  "salesOrderByItems.unitOfMeasureName": "Đơn vị tính"
+}

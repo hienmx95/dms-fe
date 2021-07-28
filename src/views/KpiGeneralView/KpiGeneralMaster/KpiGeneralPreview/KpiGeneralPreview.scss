@@ -1,0 +1,37 @@
+@import '../../../../styles/variables';
+
+.kpi-general-preview {
+  .ant-tabs-tab-active {
+    .btn {
+      background-color: $red;
+      color: $white;
+    }
+  }
+  .ant-tabs-tab {
+    margin: 0 0px 0 0 !important;
+    padding: 12px 0px 12px 16px !important;
+  }
+  .ant-tabs-ink-bar {
+    background-color: #fff;
+  }
+  .ant-tabs-bar {
+    border-bottom: none;
+  }
+  .ant-tabs-nav {
+    div:first-child {
+      padding-left: 0 !important;
+    }
+  }
+
+  .table-kpi {
+    .ant-table-thead {
+      tr {
+        background-color: #ffffff;
+      }
+    }
+  }
+  .ant-descriptions-title {
+    padding-bottom: 24px;
+    border-bottom: 1px solid $border;
+  }
+}

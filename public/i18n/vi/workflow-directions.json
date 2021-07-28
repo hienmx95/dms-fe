@@ -1,0 +1,21 @@
+{
+  "workflowDirections.bodyMail": "Nội dung email",
+  "workflowDirections.fromStep": "Từ bước",
+  "workflowDirections.master.title": "Danh sách Direction",
+  "workflowDirections.placeholder.fromStep": "Từ bước",
+  "workflowDirections.placeholder.subjectMail": "Nhập nội dung email",
+  "workflowDirections.placeholder.toStep": "Đến bước",
+  "workflowDirections.placeholder.workflowDefinition": "Chọn workflow",
+  "workflowDirections.placeholder.workflowStep": "Chọn luồng thực hiện",
+  "workflowDirections.role": "Vai trò thực hiện",
+  "workflowDirections.status": "Trạng thái",
+  "workflowDirections.subjectMail": "Tiêu đề email",
+  "workflowDirections.title.subjectMailForCreator": "Cấu hình email cho người khởi tạo",
+  "workflowDirections.title.subjectMailForCurrentStep": "Cấu hình email cho người đang thực hiện",
+  "workflowDirections.title.subjectMailForNextStep": "Cấu hình email cho người thực hiện bước sau",
+  "workflowDirections.toStep": "Đến bước",
+  "workflowDirections.updateTime": "Ngày cập nhật",
+  "workflowDirections.workflowDefinition": "Workflow",
+  "workflowDirections.workflowDirectionConditions": "Điều kiện thực hiện",
+  "workflows.clone": "Clone workflow"
+}

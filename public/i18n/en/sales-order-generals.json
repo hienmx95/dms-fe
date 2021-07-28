@@ -1,0 +1,20 @@
+{
+  "salesOrderGenerals.buyerStoreName": "",
+  "salesOrderGenerals.code": "",
+  "salesOrderGenerals.discount": "",
+  "salesOrderGenerals.master.title": "",
+  "salesOrderGenerals.orderDate": "",
+  "salesOrderGenerals.organization": "",
+  "salesOrderGenerals.placeholder.buyerStore": "",
+  "salesOrderGenerals.placeholder.endDate": "",
+  "salesOrderGenerals.placeholder.saleEmployee": "",
+  "salesOrderGenerals.placeholder.sellerStore": "",
+  "salesOrderGenerals.placeholder.startDate": "",
+  "salesOrderGenerals.revenue": "",
+  "salesOrderGenerals.saleEmployee": "",
+  "salesOrderGenerals.saleEmployeeName": "",
+  "salesOrderGenerals.sellerStore": "",
+  "salesOrderGenerals.sellerStoreName": "",
+  "salesOrderGenerals.taxValue": "",
+  "salesOrderGenerals.time": ""
+}

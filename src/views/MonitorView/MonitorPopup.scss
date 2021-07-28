@@ -1,0 +1,24 @@
+.monitor-popup {
+  .ant-table-body::-webkit-scrollbar-thumb {
+    width: 5px;
+    background-color: #c1c1c1;
+    border-radius: 10px;
+    transition: all linear 5s;
+    display: none;
+  }
+
+  .ant-table-body::-webkit-scrollbar-track {
+    width: 5px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+  }
+
+  .ant-table-body:hover::-webkit-scrollbar-thumb {
+    display: block;
+  }
+}
+.problem-monitor {
+  .card-chatbox {
+    top: 45px;
+  }
+}

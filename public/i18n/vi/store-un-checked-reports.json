@@ -1,0 +1,19 @@
+{
+  "storeUnCheckedReports.days": "Ngày",
+  "storeUnCheckedReports.displayName": "Tên nhân viên",
+  "storeUnCheckedReports.eRouteCode": "Tuyến",
+  "storeUnCheckedReports.erouteName": "Tên tuyến",
+  "storeUnCheckedReports.master.title": "Báo cáo đại lý không ghé thăm",
+  "storeUnCheckedReports.organization": "Đơn vị",
+  "storeUnCheckedReports.placeholder.endDate": "Đến ngày",
+  "storeUnCheckedReports.placeholder.startDate": "Từ ngày",
+  "storeUnCheckedReports.storeAddress": "Địa chỉ",
+  "storeUnCheckedReports.storeCode": "Mã đại lý (tự sinh)",
+  "storeUnCheckedReports.storeCodeDraft": "Mã đại lý (tự nhập)",
+  "storeUnCheckedReports.storeName": "Tên đại lý",
+  "storeUnCheckedReports.storePhone": "Số điện thoại",
+  "storeUnCheckedReports.storeTypeName": "Loại đại lý",
+  "storeUnCheckedReports.time": "Ngày",
+  "storeUnCheckedReports.username": "Mã nhân viên",
+  "storeUnCheckedReports.storeStatusName": "Trạng thái đại lý"
+}

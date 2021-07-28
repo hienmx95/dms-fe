@@ -1,0 +1,16 @@
+{
+  "notifications.appUser": "",
+  "notifications.appUsers": "",
+  "notifications.confirm": "Bạn có muốn gửi thông báo cho các đơn vị luôn không?",
+  "notifications.content": "Nội dung",
+  "notifications.detail.edit": "Thông tin chi tiết",
+  "notifications.detail.title": "Thêm mới thông báo",
+  "notifications.master.title": "Danh sách thông báo",
+  "notifications.organization": "Đơn vị nhận",
+  "notifications.placeholder.organization": "Chọn đơn vị nhận",
+  "notifications.placeholder.title": "Nhập tiêu đề",
+  "notifications.save": "Lưu nháp",
+  "notifications.send": "Gửi",
+  "notifications.status": "Trạng thái",
+  "notifications.title": "Tiêu đề"
+}

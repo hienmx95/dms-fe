@@ -1,0 +1,456 @@
+/**
+ * CSS customization
+ */
+
+@import 'mixins';
+@import 'variables';
+
+.page {
+  &.master-page {
+    input {
+      &[type='file'] {
+        &.hidden {
+          @include hidden();
+        }
+      }
+      margin: 0px;
+      // padding-left: 8px;
+    }
+    .ant-select-selection--single {
+      margin-left: 0px;
+      .ant-select-selection__rendered {
+        padding-top: 3px;
+      }
+    }
+    .ant-pagination-options {
+      .ant-select-selection__rendered {
+        padding-top: 0px;
+      }
+    }
+    .ant-form-item {
+      // margin-right: 16px;
+      margin-right: 12px;
+      margin-left: 6px;
+    }
+    .ant-form-item-label > label {
+      // padding-left: 2px;
+      margin-bottom: 0px;
+    }
+    // none rowSelection table
+    .table-none-row-selection {
+      .ant-table-small {
+        .ant-table-content {
+          .ant-table-body {
+            margin: 0 20px;
+          }
+        }
+      }
+    }
+    // table
+    .ant-table-tbody > tr > td,
+    .ant-table-thead > tr > th {
+      border: none;
+    }
+  }
+
+  &.detail-page {
+    .ant-row {
+      &.ant-form-item {
+        padding: 1rem;
+      }
+    }
+    // title in detail
+    .title-detail {
+      font-weight: 500;
+      padding: 12px;
+      color: $red;
+      font-size: 14px;
+      margin-left: 20px;
+    }
+  }
+}
+
+:root {
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.ant-card {
+  .ant-card-head {
+    color: $red;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  &.head-borderless {
+    .ant-card-head {
+      border: none;
+      color: $textColor !important;
+      font-size: 14px !important;
+      text-transform: unset;
+      margin-top: -9px;
+      border-bottom: 1px solid #e8e8e8;
+      margin-right: -10px;
+      margin-left: -10px;
+    }
+  }
+}
+
+.sidebar {
+  font-size: 12px;
+
+  .nav {
+    margin-top: 1rem;
+  }
+  .nav-link {
+    margin: 2px;
+    padding: 4px;
+    height: 28px;
+    .nav-icon {
+      font-size: 12px;
+    }
+  }
+
+  .nav-dropdown {
+    &.open {
+      .nav-link {
+        &:hover {
+          color: $red;
+        }
+
+        &.active {
+          color: $white;
+        }
+      }
+    }
+
+    &.active {
+      &:hover {
+        .nav-icon {
+          color: $white;
+        }
+      }
+    }
+  }
+
+  .nav-dropdown-items {
+    .nav-item {
+      a {
+        padding-left: 14px;
+      }
+    }
+    // .nav-item {
+    //   .nav-link {
+    //     display: flex;
+    //     .nav-icon {
+    //       font-size: 8px;
+    //       margin-top: 6px;
+    //     }
+    //   }
+    // }
+  }
+
+  .nav-dropdown-toggle::before {
+    margin-top: -3px;
+  }
+  .nav-link:hover.nav-dropdown-toggle::before {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 11 14'%3E%3Cpath fill='%23EE534D' d='M9.148 2.352l-4.148 4.148 4.148 4.148q0.148 0.148 0.148 0.352t-0.148 0.352l-1.297 1.297q-0.148 0.148-0.352 0.148t-0.352-0.148l-5.797-5.797q-0.148-0.148-0.148-0.352t0.148-0.352l5.797-5.797q0.148-0.148 0.352-0.148t0.352 0.148l1.297 1.297q0.148 0.148 0.148 0.352t-0.148 0.352z'/%3E%3C/svg%3E");
+  }
+  .nav-link {
+    &:hover {
+      &.active {
+        color: $white;
+        background: $red;
+
+        .nav-icon {
+          color: $white;
+        }
+      }
+
+      .nav-icon {
+        color: $red;
+      }
+    }
+  }
+  .nav-title {
+    padding: 0.75rem 0.6rem 0.2rem 0.6rem;
+    font-size: 11px;
+    font-weight: 700;
+    color: #89898a;
+    background-color: $white;
+  }
+}
+
+.navbar {
+  justify-content: unset;
+  button:focus {
+    outline: none;
+  }
+}
+
+// Switch
+.ant-switch-checked {
+  background-color: #2de178;
+}
+
+.tree-active {
+  background-color: #bae7ff;
+}
+
+.btn-link:hover {
+  color: $red;
+}
+// Select
+.ant-select-selection--single {
+  margin-top: 5px;
+  height: 28px;
+}
+
+.ant-select-selection__rendered {
+  line-height: 22px;
+}
+// .anticon svg {
+//   margin-bottom: 6px;
+// }
+.ant-select-dropdown-menu {
+  padding: 0;
+}
+
+.ant-select-search--inline .ant-select-search__field {
+  margin: 0;
+}
+// From
+.ant-form-item-control {
+  line-height: 38px;
+  input {
+    margin-top: 5px;
+  }
+}
+.form-control:focus {
+  box-shadow: 0 0 0.2rem $red;
+}
+
+.form-control::-webkit-input-placeholder {
+  opacity: 0.5;
+}
+
+.form-control::-moz-placeholder {
+  opacity: 0.5;
+}
+.form-control::-ms-input-placeholder {
+  opacity: 0.5;
+}
+.form-control::placeholder {
+  opacity: 0.5;
+}
+//
+.ant-form-item {
+  margin-bottom: 0px;
+}
+
+.form-control-sm {
+  height: 28px;
+}
+.form-control:disabled {
+  color: #727d87;
+}
+.ant-input-number-input {
+  padding-bottom: 12px;
+  padding-left: 8px;
+}
+
+.ant-input-number {
+  margin-top: 6px;
+}
+
+.page.detail-page .ant-row.ant-form-item {
+  padding: 10px;
+}
+// Table
+
+.ant-table-small
+  > .ant-table-content
+  > .ant-table-body
+  > table
+  > .ant-table-thead
+  > tr
+  > th.ant-table-column-sort,
+.ant-table-small
+  > .ant-table-content
+  > .ant-table-body
+  > table
+  > .ant-table-thead
+  > tr
+  > th,
+.ant-table-thead > tr > th,
+.ant-table-small
+  > .ant-table-content
+  > .ant-table-scroll
+  > .ant-table-header
+  > table
+  > .ant-table-thead
+  > tr
+  > th {
+  background-color: #f0f0f0;
+}
+.ant-table-small {
+  .ant-table-title {
+    border-bottom: unset;
+    padding: 30px 28px 30px 32px;
+    border-top: 1px solid #e8e8e8 !important;
+    margin: -16px -12px 0px -12px;
+  }
+  border: unset;
+  .ant-table-content {
+    .ant-table-body {
+      margin: 0px;
+    }
+  }
+}
+
+.ant-card-head-wrapper {
+  margin: 4px;
+}
+
+// Button reset
+.btn-outline-primary:hover {
+  svg {
+    path {
+      fill: #f9f9f9;
+    }
+  }
+}
+.btn-outline-primary {
+  svg {
+    margin-right: 4px;
+  }
+}
+
+//notification
+.ant-notification {
+  z-index: 10000;
+}
+
+// Select disabled
+
+.ant-select-disabled .ant-select-selection {
+  background: #e4e7ea;
+}
+.ant-select-disabled {
+  color: rgb(92, 104, 115);
+}
+
+// data-picker disable
+// .ant-calendar-picker {
+.ant-input[disabled] {
+  background-color: #e4e7ea;
+  color: rgb(92, 104, 115);
+}
+// }
+// icon in datePicker
+.ant-calendar-picker-icon,
+.ant-calendar-picker:hover .ant-calendar-picker-clear {
+  margin-top: -6px;
+}
+.btn-back {
+  padding: 6px;
+}
+.ant-tooltip-inner {
+  color: $red;
+  background-color: #fdfdfd;
+}
+.ant-tooltip-arrow::before {
+  background-color: #fdfdfd;
+}
+
+.button-action-table {
+  .btn-link:hover {
+    text-decoration: unset !important;
+  }
+  .btn-sm {
+    padding: 0.25rem 0.25rem !important;
+  }
+  .btn-link:focus {
+    text-decoration: none !important;
+  }
+  .btn:focus {
+    box-shadow: none;
+  }
+}
+
+.ant-table-tbody > tr {
+  cursor: pointer;
+}
+
+.ant-select-tree-dropdown {
+  max-height: 50vh !important;
+}
+.table-merge {
+  .ant-table-tbody > tr > td,
+  .ant-table-thead > tr > th {
+    border-bottom: 1px solid #f0f0f0 !important;
+  }
+  .ant-table-tbody {
+    tr {
+      td {
+        padding: 8px !important;
+        // .table-row {
+        //   padding: 8px !important;
+        // }
+        .table-title-row {
+          padding: 10px;
+          margin: -8px;
+          background: #e8e8e8;
+          border-left: 2px solid $red;
+        }
+      }
+    }
+  }
+  .ant-table-small.ant-table-bordered {
+    .ant-table-title {
+      border-top: none !important;
+      padding: 30px 28px 30px 32px;
+      border-bottom: none !important;
+      border-top: 1px solid #e8e8e8 !important;
+    }
+  }
+}
+/* font dropdown*/
+
+.ant-select-dropdown-menu {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+/*editor*/
+
+.mce-content-body::before {
+  color: rgb(201, 207, 212);
+}
+
+.mce-content-body:not([dir='rtl'])[data-mce-placeholder]:not(.mce-visualblocks)::before {
+  color: $red;
+}
+
+.btn-danger,
+.btn-danger:disabled {
+  background-color: $red;
+  border-color: $red;
+}
+
+.btn-comment {
+  position: relative;
+}
+.card-chatbox {
+  position: absolute;
+  right: 6px;
+  top: 0;
+  width: 300px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05), 0px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.ant-modal-mask {
+  z-index: 1016;
+}
+.ant-modal-wrap {
+  z-index: 1022;
+}

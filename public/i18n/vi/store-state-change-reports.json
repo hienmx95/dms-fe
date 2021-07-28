@@ -1,0 +1,13 @@
+{
+  "storeStateChangeReports.master.title": "Báo cáo chuyển đổi trạng thái đại lý",
+  "storeStateChangeReports.organization": "Đơn vị quản lý",
+  "storeStateChangeReports.storeName": "Đại lý",
+  "storeStateChangeReports.address": "Địa chỉ đại lý",
+  "storeStateChangeReports.time": "Ngày chuyển đổi",
+  "storeStateChangeReports.placeholder.endDate": "Ngày kết thúc",
+  "storeStateChangeReports.previousStatus": "Trạng thái trước",
+  "storeStateChangeReports.laterStatus": "Trạng thái sau",
+  "storeStateChangeReports.placeholder.startDate":"Ngày bắt đầu",
+  "storeStateChangeReports.placeholder.store": "Chọn đại lý",
+  "storeStateChangeReports.placeholder.address": "Nhập địa chỉ"
+}

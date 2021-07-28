@@ -1,0 +1,20 @@
+{
+  "fields.dateType": "",
+  "fields.detail.title": "",
+  "fields.id": "",
+  "fields.idType": "",
+  "fields.isDeleted": "",
+  "fields.longType": "",
+  "fields.master.title": "",
+  "fields.menu": "",
+  "fields.name": "",
+  "fields.placeholder.dateTypeKey1": "",
+  "fields.placeholder.dateTypeKey2": "",
+  "fields.placeholder.idType": "",
+  "fields.placeholder.longTypeKey1": "",
+  "fields.placeholder.longTypeKey2": "",
+  "fields.placeholder.stringTypeKey1": "",
+  "fields.placeholder.stringTypeKey2": "",
+  "fields.stringType": "",
+  "fields.type": ""
+}

@@ -1,0 +1,9 @@
+{
+  "propertys.code": "Mã tài sản",
+  "propertys.description": "Mô tả",
+  "propertys.id": "ID",
+  "propertys.isActive": "Hoạt động",
+  "propertys.isSystem": "Hệ thống",
+  "propertys.master.title": "Danh sách tài sản",
+  "propertys.name": "Tên"
+}

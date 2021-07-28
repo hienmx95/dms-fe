@@ -1,0 +1,22 @@
+{
+  "salesOrderGenerals.buyerStoreName": "Đại lý mua",
+  "salesOrderGenerals.code": "Số đơn hàng",
+  "salesOrderGenerals.discount": "Chiết khấu",
+  "salesOrderGenerals.master.title": "Báo cáo tổng hợp bán hàng gián tiếp",
+  "salesOrderGenerals.orderDate": "Ngày đặt hàng",
+  "salesOrderGenerals.organization": "Đơn vị",
+  "salesOrderGenerals.placeholder.buyerStore": "Chọn đại lý mua",
+  "salesOrderGenerals.placeholder.endDate": "Chọn ngày kết thúc",
+  "salesOrderGenerals.placeholder.saleEmployee": "Chọn nhân viên",
+  "salesOrderGenerals.placeholder.sellerStore": "Chọn đại lý bán",
+  "salesOrderGenerals.placeholder.startDate": "Chọn ngày bắt đầu",
+  "salesOrderGenerals.revenue": "Doanh thu",
+  "salesOrderGenerals.saleEmployee": "Nhân viên bán hàng",
+  "salesOrderGenerals.saleEmployeeName": "Nhân viên bán hàng",
+  "salesOrderGenerals.sellerStore": "Đại lý bán",
+  "salesOrderGenerals.sellerStoreName": "Đại lý bán",
+  "salesOrderGenerals.subTotal": "Tổng tiền chưa CK",
+  "salesOrderGenerals.taxValue": "VAT",
+  "salesOrderGenerals.time": "Ngày",
+  "salesOrderGenerals.buyerStoreStatusName": "Trạng thái đại lý"
+}

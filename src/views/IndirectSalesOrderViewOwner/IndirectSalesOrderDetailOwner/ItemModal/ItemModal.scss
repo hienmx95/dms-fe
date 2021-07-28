@@ -1,0 +1,19 @@
+.title-table {
+  font-weight: 500;
+  height: 40px;
+  border-bottom: 1px solid #e8e8e8;
+  margin-left: -16px;
+  margin-right: -16px;
+  .text-table {
+    margin-left: 35px;
+  }
+}
+.ant-popover {
+  z-index: 9999 !important;
+}
+
+.product-grouping {
+  .ant-form-item-label {
+    line-height: 37px !important;
+  }
+}

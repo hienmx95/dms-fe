@@ -1,0 +1,114 @@
+@import '~cropperjs/src/css/cropper.css';
+@import '../../styles/variables';
+
+$black: #333333;
+
+.image-upload-list {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: left;
+
+  label {
+    cursor: pointer;
+  }
+
+  @mixin button {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e8e8e8;
+    overflow: hidden;
+  }
+
+  input[type='file'] {
+    display: none !important;
+    visibility: hidden;
+  }
+
+  .cropper-container {
+    max-width: 400px;
+    max-height: 400px;
+  }
+
+  .image-upload-item {
+    margin-top: 6px;
+    .thumbnail {
+      @include button;
+      position: relative;
+      z-index: 10;
+
+      .overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background: $black;
+        opacity: 0.2;
+        z-index: 15;
+        visibility: hidden;
+
+        &:hover {
+          opacity: 1;
+          background-color: fade_out(#000000, 0.5);
+        }
+
+        button {
+          opacity: 1;
+          margin: unset;
+          padding: unset;
+
+          svg {
+            color: rgba(255, 255, 255, 0.85);
+          }
+        }
+      }
+
+      img {
+        max-width: 100%;
+        max-height: 100%;
+      }
+    }
+
+    &:hover {
+      .thumbnail {
+        .overlay {
+          visibility: visible;
+        }
+      }
+    }
+
+    .upload-button {
+      @include button;
+      border: 1px dashed #d9d9d9;
+    }
+  }
+  .anticon {
+    color: $red;
+  }
+  svg {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+.image-upload-preview {
+  img {
+    max-width: 100%;
+  }
+}
+
+.image-upload-modal-actions {
+  button {
+    margin-right: 0.5rem;
+
+    &:last-of-type {
+      margin-right: unset;
+    }
+  }
+}

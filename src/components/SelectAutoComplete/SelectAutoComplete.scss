@@ -1,0 +1,27 @@
+.select-auto-complete {
+  word-wrap: break-word;
+  overflow: hidden;
+  .ant-select-arrow {
+    top: 36%;
+    right: 5px;
+  }
+
+  .tio {
+    font-size: 20px;
+    float: right;
+  }
+}
+.ant-select-open {
+  .ant-select-arrow-icon {
+    transform: rotate(180deg);
+    transition: transform 0.3s, -webkit-transform 0.3s;
+  }
+}
+
+.ant-select-tree li span.ant-select-tree-switcher,
+.ant-select-tree li span.ant-select-tree-iconEle {
+  line-height: 15px !important;
+}
+.ant-select-selection__clear {
+  margin-top: -10px !important;
+}

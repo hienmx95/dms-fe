@@ -1,0 +1,294 @@
+@import "../../styles/variables";
+
+$color: #7d71f1;
+
+.dashboard-director {
+  .table-dashboard {
+    // .ant-table-thead > tr > th {
+    //   background: #fff;
+    // }
+    .ant-table-tbody > tr > td,
+    .ant-table-thead > tr > th {
+      // background-color: #f0f0f0;
+      border: none;
+    }
+  }
+  cursor: default !important;
+  .ant-card-bordered {
+    border-radius: 10px;
+  }
+  .dashboard-right {
+    padding-right: 15px;
+  }
+  .col-right {
+    padding-right: 0px;
+    .ant-card {
+      max-width: 928px;
+    }
+  }
+  .col-left {
+    .ant-card {
+      max-width: 928px;
+    }
+  }
+
+  .line-true {
+    width: 824px !important;
+  }
+  .col-top-right {
+    padding-right: 7px;
+  }
+  .col-top-left {
+    padding-left: 7px;
+  }
+  @mixin icon-dashboard {
+    padding: 21px 22px;
+    margin: 29px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+  }
+  .text-title {
+    color: #000000;
+    font-weight: 500;
+    font-size: 20px;
+    white-space: nowrap;
+  }
+  @mixin icon {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+  }
+  .text-statistical {
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+  }
+  .card-height {
+    min-height: 373px;
+  }
+  .revenue-text {
+    white-space: nowrap;
+  }
+  .card-fluctuation {
+    min-height: 448px;
+    max-height: 448px;
+    .table-title {
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 29px;
+      color: #000000;
+    }
+  }
+  .statistical {
+    .revenue {
+      .icon-revenue {
+        @include icon();
+        background: #ffb200;
+      }
+      .number {
+        color: #ffb200;
+      }
+    }
+    .indirect-sales-orders {
+      .icon-indirect {
+        @include icon();
+        background: #22c293;
+      }
+      .number {
+        color: #22c293;
+      }
+    }
+    .item-sales-total {
+      .icon-item-sales {
+        @include icon();
+        background: #02a0fc;
+      }
+      .number {
+        color: #02a0fc;
+      }
+    }
+    .store-checking-couter {
+      .icon-store-checking {
+        @include icon();
+        background: $red;
+      }
+      .number {
+        color: $red;
+      }
+    }
+    .code-indirect {
+      color: #02a0fc;
+      &:hover {
+        color: #02a0fc;
+      }
+    }
+  }
+  .chart-title {
+    .tio-map {
+      color: #ffb200;
+      font-size: 20px;
+    }
+    .tio-poi_user {
+      color: #499960;
+      font-size: 20px;
+    }
+    span {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      color: #000000;
+    }
+  }
+
+  @mixin icon-dashboard-response {
+    padding: 14px 16px !important;
+    margin: 15px !important;
+    border-radius: 50% !important;
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .dashboard-icon {
+    .dashboard-store {
+      @include icon-dashboard();
+      background-color: #dad7fe;
+      border: 1px solid $color;
+    }
+    .report {
+      .current-month {
+        font-weight: normal;
+        font-size: 9px;
+        color: #828282;
+      }
+      .store-report {
+        font-size: 28px;
+        color: $color;
+      }
+      .indirect-report {
+        font-size: 28px;
+        color: #27ae60;
+      }
+
+      .revenue-report {
+        font-size: 28px;
+        color: #f2994a;
+      }
+      .sell-number-report {
+        font-size: 28px;
+        color: #02a0fc;
+      }
+      .visits-report {
+        font-size: 28px;
+        color: $red;
+      }
+    }
+    .tio-shop {
+      font-size: 24px;
+      color: $color;
+    }
+    .dashboard-indirect {
+      @include icon-dashboard();
+      background-color: rgba(111, 207, 151, 0.2);
+      border: 1px solid #27ae60;
+    }
+    .tio-shopping_cart {
+      font-size: 24px;
+      color: #27ae60;
+    }
+
+    .dashboard-revenue {
+      @include icon-dashboard();
+      background-color: rgba(255, 178, 0, 0.2);
+      border: 1px solid #f2994a;
+    }
+    .tio-dollar {
+      font-size: 24px;
+      color: #f2994a;
+    }
+    .dashboard-sell-number {
+      @include icon-dashboard();
+      background-color: rgba(2, 160, 252, 0.2);
+      border: 1px solid #02a0fc;
+    }
+    .tio-layers {
+      font-size: 24px;
+      color: #02a0fc;
+    }
+    .dashboard-visits {
+      @include icon-dashboard();
+      background-color: rgba(254, 204, 204, 0.6);
+      border: 1px solid$red;
+    }
+    .tio-running {
+      font-size: 24px;
+      color: $red;
+    }
+  }
+  @media screen and (max-width: 1680px) {
+    .line-true {
+      width: 714px !important;
+    }
+  }
+  @media screen and (max-width: 1600px) {
+    .line-true {
+      width: 674px !important;
+    }
+  }
+
+  @media screen and (max-width: 1440px) {
+    .line-true {
+      width: 594px !important;
+    }
+    .text-statistical {
+      font-size: 12px;
+    }
+    .card-height {
+      min-height: 323px;
+    }
+    .text-title {
+      font-size: 15px;
+    }
+    .dashboard-icon {
+      .tio-shop,
+      .tio-shopping_cart,
+      .tio-dollar,
+      .tio-layers,
+      .tio-running {
+        font-size: 16px;
+      }
+      .report {
+        .store-report,
+        .indirect-report,
+        .revenue-report,
+        .sell-number-report,
+        .visits-report {
+          font-size: 20px;
+        }
+      }
+      .dashboard-store,
+      .dashboard-indirect,
+      .dashboard-revenue,
+      .dashboard-sell-number,
+      .dashboard-visits {
+        @include icon-dashboard-response();
+      }
+    }
+  }
+
+  @media screen and (max-width: 1366px) {
+    .line-true {
+      width: 548px !important;
+    }
+  }
+  .status {
+    @media screen and (max-width: 1366px) {
+      .pending-state,
+      .new-state,
+      .approved-state,
+      .rejected-state {
+        padding: 7px 2px !important;
+        width: 75px !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "views.detail.title": "Thông tin chi tiết",
+  "views.fields": "Khu vực",
+  "views.id": "ID",
+  "views.isDeleted": "Xóa",
+  "views.master.title": "Danh sách màn hình",
+  "views.name": "Tên",
+  "views.pages": "Trang",
+  "views.path": "",
+  "views.permissions": "Quyền"
+}

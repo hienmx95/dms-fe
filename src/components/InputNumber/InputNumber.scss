@@ -1,0 +1,35 @@
+@import 'src/styles/variables';
+
+.input-number {
+  padding: 0 !important;
+
+  .ant-input-number-input-wrap {
+    height: $input-height-sm;
+
+    input {
+      height: $input-height-sm;
+    }
+  }
+  .ant-input-number-input {
+    text-align: right;
+  }
+  .ant-input-number-input {
+    &:hover,
+    &:focus {
+      padding-right: 30px;
+    }
+  }
+  &:hover,
+  &:focus {
+    .ant-input-number-input {
+      padding-right: 30px !important;
+    }
+  }
+}
+
+.ant-input-number-input:placeholder-shown {
+  text-align: left !important;
+}
+.ant-input-number-disabled {
+  background-color: #e4e7ea !important;
+}

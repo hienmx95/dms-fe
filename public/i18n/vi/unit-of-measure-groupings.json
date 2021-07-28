@@ -1,0 +1,14 @@
+{
+  "unitOfMeasureGroupings.code": "Mã nhóm",
+  "unitOfMeasureGroupings.description": "Mô tả",
+  "unitOfMeasureGroupings.detail.title": "Thông tin chi tiết",
+  "unitOfMeasureGroupings.master.title": "Danh sách nhóm đơn vị tính",
+  "unitOfMeasureGroupings.name": "Tên nhóm",
+  "unitOfMeasureGroupings.placeholder.code": "Nhập mã nhóm",
+  "unitOfMeasureGroupings.placeholder.description": "Nhập mô tả",
+  "unitOfMeasureGroupings.placeholder.name": "Nhập tên nhóm",
+  "unitOfMeasureGroupings.placeholder.unitOfMeasure": "Chọn đơn vị cơ bản",
+  "unitOfMeasureGroupings.status": "Trạng thái",
+  "unitOfMeasureGroupings.unit": "Đơn vị cơ bản",
+  "unitOfMeasureGroupings.unitOfMeasure": "Đơn vị cơ bản"
+}

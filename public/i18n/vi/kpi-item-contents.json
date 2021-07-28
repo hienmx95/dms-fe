@@ -1,0 +1,14 @@
+{
+  "kpiItemContents.create": "Thêm mới",
+  "kpiItemContents.indirectQuantity": "Sản lượng theo đơn hàng gián tiếp",
+  "kpiItemContents.indirectRevenue": "Doanh thu",
+  "kpiItemContents.indirectAmount": "Số đơn hàng gián tiếp",
+  "kpiItemContents.indirectStore": "Số đại lý hiện diện",
+  "kpiItemContents.itemCode": "Mã sản phẩm",
+  "kpiItemContents.itemName": "Tên sản phẩm",
+  "kpiItemContents.directQuantity": "Sản lượng theo đơn hàng trực tiếp",
+  "kpiItemContents.directRevenue": "Doanh thu theo đơn hàng trực tiếp",
+  "kpiItemContents.directAmount": "Số đơn hàng trực tiếp ",
+  "kpiItemContents.directStore": "Số đại lý theo đơn trực tiếp",
+  "kpiItemContents.errors.kpiItemType": "Bạn chưa chọn loại KPI !"
+}

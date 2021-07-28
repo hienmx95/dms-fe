@@ -1,0 +1,35 @@
+@import '../../../../styles/variables';
+
+.app-user-role-detail {
+  .ant-card-bordered {
+    .ant-card-head {
+      border-bottom: unset !important;
+    }
+  }
+  .info-title {
+    color: $red;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  form.ant-form.ant-form-horizontal {
+    border-top: 1px solid #e8e8e8;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  .ant-spin-nested-loading {
+    margin-top: 2rem;
+  }
+  .ant-table-small {
+    // .ant-table-title {
+    //     padding: 24px 28px 24px 32px;
+    // }
+    .ant-table-content {
+      .ant-table-body {
+        border-top: 1px solid #e8e8e8;
+      }
+    }
+  }
+}
+.table-title-header {
+  margin-bottom: 44px;
+}

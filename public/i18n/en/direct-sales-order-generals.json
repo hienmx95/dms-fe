@@ -1,0 +1,18 @@
+{
+  "directSalesOrderGenerals.code": "",
+  "directSalesOrderGenerals.buyerStoreName": "",
+  "directSalesOrderGenerals.sellerStoreName": "",
+  "directSalesOrderGenerals.saleEmployeeName": "",
+  "directSalesOrderGenerals.orderDate": "",
+  "directSalesOrderGenerals.subTotal": "",
+  "directSalesOrderGenerals.discount": "",
+  "directSalesOrderGenerals.taxValue": "",
+  "directSalesOrderGenerals.revenue": "",
+  "directSalesOrderGenerals.master.title": "",
+  "directSalesOrderGenerals.organization": "",
+  "directSalesOrderGenerals.saleEmployee": "",
+  "directSalesOrderGenerals.sellerStore": "",
+  "directSalesOrderGenerals.time": "",
+  "directSalesOrderGenerals.placeholder.startDate": "",
+  "directSalesOrderGenerals.placeholder.endDate": ""
+}

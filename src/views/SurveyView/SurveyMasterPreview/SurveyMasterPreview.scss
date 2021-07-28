@@ -1,0 +1,192 @@
+@import '../../../styles/variables';
+.survey-preview {
+  font-weight: 500;
+  max-width: 1036px !important;
+  .container {
+    padding-right: 100px;
+    padding-left: 90px;
+  }
+  .title-survey {
+    color: $red;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .description {
+    font-weight: 500;
+  }
+
+  @mixin box {
+    border: 1px solid $border;
+    padding: 25px;
+    border-radius: 10px;
+  }
+  .survey-question {
+    @include box();
+  }
+  .circle {
+    min-width: 15px;
+    max-width: 15px;
+    height: 15px;
+    border: 3px solid #e4e7ea;
+    border-radius: 20px;
+  }
+  .checkbox {
+    min-width: 20px;
+    max-width: 20px;
+    height: 20px;
+    background: #eef1f5;
+    border: 0.5px solid #eef1f5;
+    opacity: 1;
+  }
+  .question-type-3 {
+    max-width: 100%;
+    overflow-x: auto;
+    // .question-header {
+    //   display: inline-flex;
+    // }
+    .row-content {
+      position: relative;
+    }
+    // .row-checked {
+    //   position: absolute;
+    // }
+  }
+
+  .list-item {
+    .list-item-view-container {
+      max-width: 100%;
+      overflow: hidden;
+      position: relative;
+      .list-item-absolute {
+        overflow: hidden;
+        background-color: transparent;
+        pointer-events: none;
+        position: absolute;
+        left: -1px;
+        top: 0;
+      }
+      .row-content:first-child {
+        // box-shadow: 1px 0 7px -1px #e0e0e0;
+        background-color: #ffffff;
+      }
+      .list-item-form-scroll {
+        overflow-x: auto;
+        overflow-y: hidden;
+        padding-bottom: 10px;
+        .td-header-first {
+          background: #ffffff;
+        }
+
+        .table-item {
+          border-collapse: collapse;
+          display: table;
+          width: 100%;
+          .question-header {
+            border-bottom: none;
+            display: table-row;
+          }
+          .item-cell {
+            visibility: hidden;
+          }
+          .question-header-row {
+            display: table-cell;
+            height: 2.5em;
+            min-width: 60px;
+            padding: 0.25em;
+            text-align: center;
+            vertical-align: middle;
+            // width: 10px;
+          }
+          .td-header {
+            border-bottom-left-radius: 4px;
+            border-top-left-radius: 4px;
+            min-width: 60px;
+            // max-width: 288px;
+            padding: 8px;
+            text-align: left;
+          }
+          .row-group {
+            display: table-row-group;
+            padding: 8px 0;
+            .row-group-content {
+              border-bottom: none;
+              display: table-row;
+              flex-direction: column;
+              align-items: flex-start;
+            }
+          }
+        }
+      }
+
+      .list-item-form-scroll::-webkit-scrollbar {
+        width: 5px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        height: 10px;
+      }
+
+      .list-item-form-scroll::-webkit-scrollbar-thumb {
+        width: 5px;
+        background-color: #c1c1c1;
+        border-radius: 10px;
+        transition: all linear 5s;
+        display: none;
+      }
+
+      .list-item-form-scroll::-webkit-scrollbar-track {
+        width: 5px;
+        background-color: #ffffff;
+        border-radius: 10px;
+      }
+
+      .list-item-form-scroll:hover::-webkit-scrollbar-thumb {
+        display: block;
+      }
+    }
+  }
+}
+
+.preview {
+  .modal-content .modal-body {
+    border-top: 1px solid #e8e8e8 !important;
+    margin-top: 12px;
+  }
+}
+.row-preview {
+  margin-left: 10px !important;
+  margin-bottom: 12px;
+}
+
+.survey-question__file-item {
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ccc;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  .survey-question__file-link {
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.survey-preview {
+  position: relative;
+  z-index: 10;
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: $black;
+    opacity: 0.2;
+    z-index: 15;
+    visibility: hidden;
+  }
+}

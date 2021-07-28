@@ -1,0 +1,119 @@
+@import '../../styles/variables';
+
+.option-custom {
+  position: relative;
+}
+
+// scroll with react perfect scroll
+.select-input {
+  cursor: pointer;
+  border-radius: 0.2rem;
+  font-size: 0.76563rem;
+  padding-right: 25px !important;
+  height: 42px !important;
+}
+
+// touched and preven scroll
+// .select-input {
+//   cursor: pointer;
+//   display: flex; /* [1] */
+//   flex-wrap: nowrap; /* [1] */
+//   overflow-x: auto; /* [2] */
+//   -webkit-overflow-scrolling: touch; /* [3] */
+//   -ms-overflow-style: -ms-autohiding-scrollbar; /* [4] */
+//   border-radius: 0.2rem;
+//   font-size: 0.76563rem;
+//   padding-right: 25px !important;
+// }
+
+// .select-input::-webkit-scrollbar {
+//   display: none;
+// }
+
+.select-click {
+  flex: 1;
+  height: 24px;
+}
+
+.select-input::before {
+  position: absolute;
+  content: '';
+  right: 8px;
+  top: 18px;
+  border-top: 5px solid #252525;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+}
+
+.select-icon {
+  font-size: 20px;
+  margin-right: 5px;
+  color: #84ce3f;
+  flex-basis: 30px;
+}
+
+.select-title {
+  color: #252525;
+}
+
+.select-title.placeholder {
+  color: #ccc;
+}
+
+.select-list {
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.select-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.select-item:hover {
+  background: #eee;
+}
+
+.selected-list {
+  display: flex;
+  width: 100%;
+}
+
+.selected-item {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid$red;
+  border-radius: 3px;
+  margin: 1px;
+  background: $red;
+  color: #ffffff;
+  padding: 0 5px;
+  border-radius: 3px !important;
+}
+
+.selected-item span {
+  margin-right: 5px;
+}
+
+// perfect scrollbar
+.ps .ps__rail-x {
+  bottom: -4px !important; /* there must be 'bottom' for ps-scrollbar-x-rail */
+  height: 4px !important;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -o-transition: background-color 0.2s linear, opacity 0.2s linear;
+  -webkit-transition: background-color 0.2s linear, opacity 0.2s linear;
+  -moz-transition: background-color 0.2s linear, opacity 0.2s linear;
+  transition: background-color 0.2s linear, opacity 0.2s linear;
+}
+
+.scrollbar-container {
+  position: relative;
+}

@@ -1,0 +1,18 @@
+{
+  "directSalesOrderContents.amount": "Thành tiền",
+  "directSalesOrderContents.discountAmount": "Chiết khấu",
+  "directSalesOrderContents.discountPercentage": "Chiết khấu (%)",
+  "directSalesOrderContents.items.code": "Mã sản phẩm",
+  "directSalesOrderContents.items.name": "Tên sản phẩm",
+  "directSalesOrderContents.master.item.title": "Danh sách sản phẩm",
+  "directSalesOrderContents.placeholder.taxType": "Chọn loại thuế",
+  "directSalesOrderContents.placeholder.unitOfMeasure": "Chọn đơn vị tính",
+  "directSalesOrderContents.primarySalePrice": "Giá bán theo đơn vị lưu kho",
+  "directSalesOrderContents.primaryUnitOfMeasure": "Đơn vị lưu kho",
+  "directSalesOrderContents.quantity": "Số lượng",
+  "directSalesOrderContents.requestedQuantity": "Số lượng yêu cầu",
+  "directSalesOrderContents.salePrice": "Giá bán theo đơn vị cơ bản",
+  "directSalesOrderContents.taxPercentage": "VAT (%)",
+  "directSalesOrderContents.unitOfMeasure": "Đơn vị tính",
+  "directSalesOrderContents.price": "Giá bán"
+}

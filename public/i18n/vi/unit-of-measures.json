@@ -1,0 +1,10 @@
+{
+  "unitOfMeasures.code": "Mã đơn vị tính",
+  "unitOfMeasures.detail.edit": "Thông tin chi tiết",
+  "unitOfMeasures.detail.title": "Thêm mới Đơn vị tính",
+  "unitOfMeasures.master.title": "DANH SÁCH ĐƠN VỊ TÍNH",
+  "unitOfMeasures.name": "Tên đơn vị tính",
+  "unitOfMeasures.placeholder.code": "Nhập mã đơn vị tính",
+  "unitOfMeasures.placeholder.name": "Nhập tên đơn vị tính",
+  "unitOfMeasures.status": "Trạng thái"
+}

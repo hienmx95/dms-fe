@@ -1,0 +1,37 @@
+@import "../../../../styles/variables";
+
+.title {
+  font-weight: 500;
+  padding: 24px;
+  color: $red;
+  font-size: 14px;
+}
+
+.page-detail-uomg {
+  .ant-card-bordered {
+    .ant-card-head {
+      border-bottom: unset !important;
+    }
+  }
+
+  form.ant-form.ant-form-horizontal {
+    border-top: 1px solid #e8e8e8;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-top: 12px;
+  }
+  .ant-table-wrapper {
+    margin-top: 2rem;
+  }
+}
+.short {
+  min-height: unset !important;
+}
+.title-uomg {
+  .ant-card-head-title {
+    font-size: 14px;
+    text-transform: initial;
+    font-weight: 500;
+    padding-left: 30px;
+  }
+}

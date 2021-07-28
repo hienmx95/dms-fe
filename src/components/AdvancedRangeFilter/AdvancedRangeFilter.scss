@@ -1,0 +1,14 @@
+/* Style for AdvancedDateFilter.tsx */
+
+.advanced-date-filter {
+  width: -webkit-fill-available;
+  .ant-calendar-picker-input {
+    &.ant-input {
+      height: 28px;
+    }
+  }
+
+  .anticon svg {
+    margin-bottom: 6px;
+  }
+}

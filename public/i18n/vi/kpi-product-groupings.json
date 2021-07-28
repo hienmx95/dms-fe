@@ -1,0 +1,8 @@
+{
+  "kpiProductGroupings.detail.kpiProductGrouping": "Nhóm sản phẩm",
+  "kpiProductGroupings.employee.displayName": "Nhân viên",
+  "kpiProductGroupings.master.title": "Danh sách Kpi nhóm sản phẩm",
+  "kpiProductGroupings.placeholder.productGrouping": "Chọn nhóm sản phẩm",
+  "kpiProductGroupings.titlePreview": "Kpi nhóm sản phẩm",
+  "kpiProductGroupings.actions.addItem": "Thêm sản phẩm"
+}

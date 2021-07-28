@@ -1,0 +1,13 @@
+{
+  "propertyValues.code": "Mã giá trị tài sản",
+  "propertyValues.createdAt": "Ngày tạo",
+  "propertyValues.deletedAt": "Ngày xóa",
+  "propertyValues.detail.title": "Thông tin chi tiết",
+  "propertyValues.id": "ID",
+  "propertyValues.isActive": "Hoạt động",
+  "propertyValues.master.title": "Danh sách giá trị tài sản",
+  "propertyValues.name": "Tên",
+  "propertyValues.property": "Tài sản",
+  "propertyValues.propertyId": "",
+  "propertyValues.updatedAt": "Ngày tạo"
+}

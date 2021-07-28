@@ -1,0 +1,18 @@
+{
+  "statisticStoreScoutingReports.chart.title": "Tỷ lệ đại lý cắm cờ/ đại lý tại đơn vị",
+  "statisticStoreScoutingReports.district": "Quận/ huyện",
+  "statisticStoreScoutingReports.master.title": "Báo cáo thống kê đại lý cắm cờ",
+  "statisticStoreScoutingReports.officalName": "Đơn vị hành chính",
+  "statisticStoreScoutingReports.placeholder.endDate": "Chọn ngày kết thúc",
+  "statisticStoreScoutingReports.placeholder.startDate": "Chọn ngày bắt đầu",
+  "statisticStoreScoutingReports.province": "Tỉnh/ thành",
+  "statisticStoreScoutingReports.storeCounter": "Số đại lý",
+  "statisticStoreScoutingReports.storeCoutingOpennedRate": "Tỷ lệ mở đại lý cắm cờ",
+  "statisticStoreScoutingReports.storeCoutingRate": "Tỷ lệ đại lý cắm cờ",
+  "statisticStoreScoutingReports.storeOpennedCounter": "Số đại lý cắm cờ đã mở",
+  "statisticStoreScoutingReports.storeRate": "Tỷ lệ đại lý",
+  "statisticStoreScoutingReports.storeScoutingCounter": "Số đại lý cắm cờ",
+  "statisticStoreScoutingReports.storeScoutingUnOpen": "Số đại lý cắm cờ chưa mở",
+  "statisticStoreScoutingReports.time": "Ngày",
+  "statisticStoreScoutingReports.ward": "Xã/ phường"
+}

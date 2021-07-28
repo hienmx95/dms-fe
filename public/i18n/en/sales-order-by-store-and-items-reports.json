@@ -1,0 +1,16 @@
+{
+  "salesOrderByStoreAndItemsReports.address": "",
+  "salesOrderByStoreAndItemsReports.item": "",
+  "salesOrderByStoreAndItemsReports.itemName": "",
+  "salesOrderByStoreAndItemsReports.master.title": "",
+  "salesOrderByStoreAndItemsReports.organization": "",
+  "salesOrderByStoreAndItemsReports.placeholder.endDate": "",
+  "salesOrderByStoreAndItemsReports.placeholder.startDate": "",
+  "salesOrderByStoreAndItemsReports.promotionStock": "",
+  "salesOrderByStoreAndItemsReports.revenue": "",
+  "salesOrderByStoreAndItemsReports.storeCode": "",
+  "salesOrderByStoreAndItemsReports.storeGrouping": "",
+  "salesOrderByStoreAndItemsReports.storeName": "",
+  "salesOrderByStoreAndItemsReports.storeType": "",
+  "salesOrderByStoreAndItemsReports.time": ""
+}

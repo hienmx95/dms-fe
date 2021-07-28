@@ -1,0 +1,20 @@
+@import '../../../styles/variables';
+.display-username {
+  color: #1592f3;
+  text-decoration: underline;
+}
+.display-username:hover {
+  color: rgba($color: #1592f3, $alpha: 0.6);
+}
+.display-username:focus {
+  color: #1592f3;
+}
+.btn-export-template:hover {
+  background-color: $red;
+  color: #ffffff !important;
+}
+.image {
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+}

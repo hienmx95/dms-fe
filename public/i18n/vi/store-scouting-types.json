@@ -1,0 +1,10 @@
+{
+  "storeScoutingTypes.detail.addNode": "Tạo mới",
+  "storeScoutingTypes.detail.edit": "Thông tin chi tiết",
+  "storeScoutingTypes.code": "Mã loại đại lý cắm cờ",
+  "storeScoutingTypes.placeholder.code": "Nhập mã đại lý loại cắm cờ",
+  "storeScoutingTypes.name": "Tên loại đại lý cắm cờ",
+  "storeScoutingTypes.placeholder.name": "Nhập tên loại đại lý cắm cờ",
+  "storeScoutingTypes.status": "Trạng thái",
+  "storeScoutingTypes.master.title": "Danh sách loại đại lý cắm cờ"
+}
